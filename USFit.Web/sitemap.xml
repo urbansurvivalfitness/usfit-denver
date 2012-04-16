@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+	<url>
+		<loc>http://usfit-denver.apphb.com</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/legal/terms-of-use</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/legal/terms-of-service</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/legal/legal-information</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/home/technology/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/home/termsofuse/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/home/privacy/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/account/login/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://usfit-denver.apphb.com/home/howdoesitwork/</loc>
+		<changefreq>weekly</changefreq>
+	</url>	
+</urlset>
