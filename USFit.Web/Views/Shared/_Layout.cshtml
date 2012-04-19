@@ -18,7 +18,7 @@
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
     <header>
-            <div class="content-wrapper wrapper">
+            <div class="content-wrapper wrapper container_12">
                 <div class="float-left">
                     <p class="site-title">@Html.ActionLink("your logo here.", "Index", "Home")</p>
                 </div>
@@ -38,12 +38,12 @@
         </header>
     <div id="body">
         @RenderSection("featured", required: false)
-        <section class="content-wrapper main-content clear-fix wrapper">
+        <section class="content-wrapper main-content clear-fix wrapper container_12">
                 @RenderBody()
             </section>
     </div>
     <footer>
-            <div class="content-wrapper wrapper">
+            <div class="content-wrapper wrapper container_12">
                 <div class="float-left">
                     <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
                     @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" }) | 
