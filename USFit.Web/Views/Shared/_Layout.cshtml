@@ -16,50 +16,70 @@
     <meta name="viewport" content="width=device-width" />
 </head>
 <body>
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-    <header>
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div class="outer-wrapper">
+        <header>
             <div class="content-wrapper wrapper container_12">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here.", "Index", "Home")</p>
                 </div>
                 <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
+                    <h4>
+                        Secondary Navigation - 1</h4>
                     <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <ul>
+                            <li>@Html.ActionLink("Home", "Index", "Home") <span>| </span></li>
+                            <li>@Html.ActionLink("Pricing", "Pricing", "Home")<span> | </span></li>
+                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home")<span> | </span></li>
+                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home")<span> | </span></li>
+                            <li><a href="#">Blog</a><span></span></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-    <div id="body">
-        @RenderSection("featured", required: false)
-        <section class="content-wrapper main-content clear-fix wrapper container_12">
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix wrapper container_12">
                 @RenderBody()
             </section>
+        </div>
+        <div class="push">
+        </div>
     </div>
     <footer>
-            <div class="content-wrapper wrapper container_12">
+        <div class="footer content-wrapper container_12">
+            <h4>
+                Site Information</h4>
+            <section>
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
-                    @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" }) | 
-                    @Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" }) | 
+                    <p>
+                        &copy; 2010-@DateTime.Now.Year - Urban Survival Fitness&trade; - All Rights Reserved</p>
+                    @Html.ActionLink("Home", "", "home", null, new { title = "Navigate to Home Page for Urban Survival Fitness" })
+                    |
+                    @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" })
+                    |
+                    @Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })
+                    |
                     @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
+                    |
+                    @Html.ActionLink("Blog", "#", null, new { title = "Navigate to the Blog" })
                 </div>
+            </section>
+            <section id="social-footer">
                 <div class="float-right">
                     <ul id="social">
                         <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
                         <li><a href="http://twitter.com" class="twitter">Twitter</a></li>
                     </ul>
                 </div>
+            </section>
+            <div class="clearfix">
             </div>
-        </footer>
+            <article>
+            </article>
+        </div>
+    </footer>
     <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
-
     <script>
         var _gaq = [['_setAccount', 'UA-30913081-1'], ['_trackPageview']];
         (function (d, t) {
@@ -67,6 +87,6 @@
             g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g, s)
         } (document, 'script'));
-</script>
+    </script>
 </body>
 </html>

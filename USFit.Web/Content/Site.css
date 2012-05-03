@@ -84,6 +84,25 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	margin:0 4% 0 4%;
 }
 
+/* ===== Sticky Footer =====================================================
+   Author: Ryan Fait
+   ========================================================================== */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.outer-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 142px; /* .push must be the same height as .footer */
+}
 
 /* ===== Grid Styles ======================================================== */
 
@@ -495,7 +514,7 @@ footer {
     clear: both;
     background-color: #e2e2e2;
     font-size: .8em;
-    height: 100px;
+    height: 142px;
 }
 
 
@@ -552,7 +571,7 @@ footer {
 /* menu
 ----------------------------------------------------------*/
 ul#menu {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 600;
     margin: 0;
     text-align: right;
@@ -863,10 +882,15 @@ ul#social li {
 	
 	nav a{
 		float:left;
-		width:27%;
+		/*width:27%;*/
 		margin:0 1.7%;
 		padding:25px 2%;
 		margin-bottom:0;
+	}
+	
+	nav span
+	{
+	    float:left;
 	}
 	
 	nav li:first-child a{ margin-left:0;  }
@@ -912,10 +936,15 @@ ul#social li {
 	
 	nav a{
 		float:left;
-		width:27%;
+		/*width:27%;*/
 		margin:0 1.7%;
 		padding:0 2%;
 		margin-bottom:0;
+	}
+	
+	nav span
+	{
+	    float:left;
 	}
 
 /* ============
@@ -961,12 +990,16 @@ ul#social li {
 	
 	nav a{
 		float:left;
-		width:27%;
+		/*width:27%;*/
 		margin:0 1.7%;
 		padding:0 2%;
 		margin-bottom:0;
 	}
 	
+	nav span
+	{
+	    float:left;
+	}
 }
 
 
