@@ -133,6 +133,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
+    <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />
+    <Content Include="Images\home\seniors-6498326.jpg" />
+    <Content Include="Images\home\youth-athletics-7513397.jpg" />
+    <Content Include="Images\home\womens-self-defense-12197609.jpg" />
+    <Content Include="Images\button-overlay.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -253,6 +258,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
