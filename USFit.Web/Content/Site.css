@@ -931,7 +931,11 @@ ul#social li {
     }
 
 
-
+/* home page styles */
+div.primary-nav-button
+{
+    margin-bottom:4em;
+}
 
 
 /********************

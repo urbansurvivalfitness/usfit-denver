@@ -1,90 +1,156 @@
 @{
     ViewBag.Title = "Home Page";
 }
-
 @section featured {
-<section class="featured">
-    <div class="content-wrapper container_12">
-
-        <div class="grid_8">
-        <div><h4>Class! Why are you here? - To Be the Best Me that I can Be!!!</h4></div>
-        <div class="clearfix"></div>
-
-        <div><img style="width:100%;" src="@Url.Content("images/home/fitness-enthusiast-13622093.jpg")" /></div>
-        <div class="clearfix"></div>
-        <div><p>Image Text / Description</p></div>
+    <section class="featured">
+        <div class="content-wrapper container_12">
+            <div class="grid_8">
+                <div>
+                    <h4>
+                        Class! Why are you here? - To Be the Best Me that I can Be!!!</h4>
+                </div>
+                <div class="clearfix">
+                </div>
+                <div id="fitness-enthusiast" class="target t1">
+                    <div>
+                        <img style="width:100%;" src="@Url.Content("images/home/fitness-enthusiast-13622093.jpg")" /></div>
+                    <div class="clearfix">
+                    </div>
+                    <div>
+                        <p>
+                            Marathon, triathlon, adventure course and team sport competitors, plus those striving
+                            to become more well-rounded athletes will find a challenge and develop tools to
+                            enhance your competitive abilities. Come train and compete with other like-minded
+                            people in one of our group fitness classes.</p>
+                    </div>
+                </div>
+                <div id="youth-athletics" class="offscreen target t2">
+                    <div>
+                        <img style="width:100%;" src="@Url.Content("images/home/youth-athletics-7513397.jpg")" /></div>
+                    <div class="clearfix">
+                    </div>
+                    <div>
+                        <p>
+                            Our youth programs include nutrition planning, sports specific conditioning and
+                            training as well as mental discipline to get you ready for the upcoming season.
+                            Urban Survival Fitness is a great place for families to develop the foundation for
+                            a healthy lifestyle which includes exercise, nutrition and self-confidence.</p>
+                    </div>
+                </div>
+                <div id="womens-fitness" class="offscreen target t3">
+                    <div>
+                        <img style="width:100%;" src="@Url.Content("images/home/womens-self-defense-12197609.jpg")" /></div>
+                    <div class="clearfix">
+                    </div>
+                    <div>
+                        <p>
+                            Join one of our group fitness classes to develop overall strength and reach your
+                            fitness goals. Our self-defense classes will hel you learn to recognize, prevent,
+                            and respond to dangerous situations while building a more self-confident you.</p>
+                    </div>
+                </div>
+                <div id="seniors" class="offscreen target t4">
+                    <div>
+                        <img style="width:100%;" src="@Url.Content("images/home/seniors-6498326.jpg")" /></div>
+                    <div class="clearfix">
+                    </div>
+                    <div>
+                        <p>
+                            We have group exercise classes for seniors that help you with flexibility, mobility,
+                            and general fitness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div>
+                    Social Buttons</div>
+                <div class="clearfix">
+                </div>
+                <div class="primary-nav-button">
+                    <a id="b1" href="#" class="super button orange">Fitness Enthusiast</a></div>
+                <div class="clearfix">
+                </div>
+                <div class="primary-nav-button">
+                    <a id="b2" class="super button orange">Youth Athletics</a></div>
+                <div class="clearfix">
+                </div>
+                <div class="primary-nav-button">
+                    <a id="b3" class="super button orange">Womens Fitness</a></div>
+                <div class="clearfix">
+                </div>
+                <div class="primary-nav-button">
+                    <a id="b4" class="super button orange">Seniors</a></div>
+                <div class="clearfix">
+                </div>
+            </div>
+            <div class="clearfix">
+            </div>
         </div>
-        <div class="grid_4">
-            <div>Social Buttons</div>
-            <div class="clearfix"></div>
-            <div><a href="#" class="super button orange">Fitness Enthusiast</a></div>
-            <div class="clearfix"></div>
-            <div><a class="super button orange">Youth Athletics</a></div>
-            <div class="clearfix"></div>
-            <div><a class="super button orange">Womens Fitness</a></div>
-            <div class="clearfix"></div>
-            <div><a class="super button orange">Seniors</a></div>
-            <div class="clearfix"></div>
-        </div>
-
-        <div class="clearfix"></div>
-    </div>
-</section> 
+    </section>
 }
+    <div class="grid_4">
+        <section>
+            <h3>
+                What Our Customers Say</h3>
+            <blockquote>
+                <p>
+                    Every time I train with the group at Urban Survival Fitness, I experience a new
+                    challenge and it never gets old</p>
+                <p>
+                    <cite>Cedric B.</cite><span>Denver, CO</span></p>
+            </blockquote>
+            <blockquote>
+                <p>
+                    The group fitness classes help me train for the triathalons that I run yearly</p>
+                <p>
+                    <cite>Joe S.</cite><span>Denver, CO</span></p>
+            </blockquote>
+            <blockquote>
+                <p>
+                    The people that workout here motivate me to work harder. Everyone sweats, everyone
+                    cheers you on, everyone helps me be the best me that I can be.</p>
+                <p>
+                    <cite>Terri K.</cite><span>Park Hill, CO</span></p>
+            </blockquote>
+            <blockquote>
+                <p>
+                    This isn't a social club like CAC, Forza, or DAC. We show up on time, get in, work
+                    our tails off, and get out. You will get out of it, what you put in.</p>
+                <p>
+                    <cite>Tom S.</cite><span>Park Hill, CO</span></p>
+            </blockquote>
+        </section>
+    </div>
+    <div class="grid_4">
+                <section>
+                    <h3>
+                        What We Offer</h3>
+                    <ul>
+                        <li>Group classes combine boxing, martial arts, yoga, and dance techniques</li>
+                        <li>A challenging alternative to your average bootcamp, our classes don't end after
+                            6 weeks</li>
+                        <li>Group classes are competitive like crossfit without the technical challenge</li>
+                        <li>A great suppliment to any triathalon, strong man, obstacle course, military style
+                            event, or athletic program that you may be training for</li>
+                        <li>Multiple certified personal trainers in every class</li>
+                        <li>One on one coaching is available</li>
+                        <li>Optional, personalized fitness programs, wellness programs, and diet programs</li>
+                        <li>A clean facility with all equpment needed for every class</li>
+                        <li>A fun and friendly, yet challenging, group fitness experience</li>
+                    </ul>
+                </section>
+    </div>
+    <div class="grid_4">
+                    <section id="secondary-nav-2">
+                    <h4>Secondary Navigation - 2</h4>
+                    <ul>
+                        <li><a href="#">Our Staff</a></li>
+                        <li><a href="#">Our Facility</a></li>
+                        <li><a href="#">Our Location</a></li>
+                    </ul>
 
-<h3>We suggest the following:</h3>
-
-<ol class="round">
-    <li class="one">
-        <h5>Configure ASP.NET Membership</h5>
-        ASP.NET membership gives you a built-in way to create, store, and 
-        validate user credentials (authentication). By default, membership works with a local instance of SQL Server, 
-        but you can configure it to use another database.
-    </li>
-    <li class="two">
-        <h5>Add NuGet packages and jump start your coding</h5>
-        NuGet makes it easy to install and update free libraries and tools in Visual Studio. In <em>Solution Explorer</em>, 
-        right-click the <em>References</em> node, select <em>Manage NuGet Packages</em>, and then pick from the extensive 
-        list of packages.
-    </li>
-    <li class="three">
-        <h5>Setup deployment to your web server</h5>
-        Use Microsoft Web Deploy to quickly and easily publish your application to a web server. 
-        In <em>Solution Explorer</em>, right-click your project, select <em>Publish</em>, 
-        and choose one of the many options to get your code deployed and running on the web.
-    </li>
-</ol>
-
-<section class="features">
-    <section class="feature">
-        <img src="~/Images/aspNetHome.png" alt="" />
-        <h3>Home of ASP.NET</h3>
-        <p>
-            ASP.NET is a free, fully supported Web application framework that helps you create standards-based web solutions. 
-            Whether you're new to ASP.NET or an experienced developer, the <a href="http://asp.net">ASP.NET website</a> 
-            is your source for news, training, downloads, and support.
-        </p>
-    </section>
-    <section class="feature">
-        <img src="~/Images/NuGetGallery.png" alt="" />
-        <h3>NuGet Gallery</h3>
-        <p>
-            NuGet is a Visual Studio extension that makes it easy to install and update open source libraries and tools in 
-            Visual Studio. To see available packages, visit the <a href="http://nuget.org">NuGet gallery</a>.
-            You can also develop your own package and share it in the gallery.
-        </p>
-    </section>
-    <section class="feature">
-        <img src="~/Images/findHosting.png" alt="" />
-        <h3>Find Web Hosting</h3>
-        <p>
-            You can easily find a web hosting company that offers the right mix of features and price for your applications. 
-            Visit <a href="http://microsoft.com/web/hosting" title="Microsoft/Web Website">Microsoft.com/web</a> to 
-            explore offerings from many providers.
-        </p>
-    </section>
-</section>
-
-<section class="content-wrapper">
-    
-</section>
+                    <h4>Logo</h4>
+                    <img src="#" title="logo" alt="logo" />
+                </section>
+    </div>
