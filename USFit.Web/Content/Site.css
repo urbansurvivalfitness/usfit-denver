@@ -937,6 +937,16 @@ div.primary-nav-button
     margin-bottom:4em;
 }
 
+.target-image-container
+{
+    min-height:400px;
+    height:400px;
+}
+div.target-descr
+{
+    min-height:110px;
+}
+
 
 /********************
 *   Mobile Styles   *
