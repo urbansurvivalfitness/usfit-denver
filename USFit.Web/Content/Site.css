@@ -953,7 +953,7 @@ div.target-descr
 /* =============================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 480)
 {
     .wrapper
 	{
@@ -989,7 +989,7 @@ div.target-descr
     
     .super.button, .super.button:visited 
     {
-        font-size:1em;
+        font-size:2em;
         padding: .5em .75em .6em .5em;
         max-width:90%;
     }
@@ -1319,6 +1319,67 @@ div.target-descr
             text-indent: 0;
             width: auto;
         }
+        
+        
+        
+            .wrapper
+	{
+	    max-width:850px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+	.content-wrapper
+	{
+	    max-width:850px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+    .image-container
+    {
+        min-width:100%;
+    }
+    
+    .button-container
+    {
+        min-width:100%;
+        margin-top:.5em;
+    }
+
+    .target-image-container
+    {
+        width:auto;
+        height:auto;
+        min-height:0px;
+    }
+    
+    .super.button, .super.button:visited 
+    {
+        font-size:2em;
+        padding: .5em .75em .6em .5em;
+        max-width:90%;
+    }
+    
+    div.primary-nav-button
+    {
+        margin-bottom:.3em;
+    }
+    
+    .secondary-nav-2
+    {
+        min-width:100%;
+    }
+    
+    .service-offerings
+    {
+        min-width:100%;
+    }
+    
+    .customer-quotes
+    {
+        min-width:100%;
+    }
 }
 
 
