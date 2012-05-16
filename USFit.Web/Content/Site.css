@@ -570,6 +570,38 @@ blockquote cite { display: block; font-size: 1em; color: #555; }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
+ul.inlineRuled {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    _display:inline-block;
+  }
+ 
+  ul.inlineRuled li {
+    float:left;
+    padding:0 .5em 0 .25em;      /* padding-right = 2 x padding-left */
+    margin-left:-.25em;         /* margin-left = -1 x padding-left */
+    border-left:1px solid #000;
+    white-space: nowrap;
+  }
+ 
+  ul.inlineRuledRight {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    _display:inline-block;
+  }
+ 
+  ul.inlineRuledRight li {
+    float:right;
+    padding:0 .25em 0 .5em;      /* padding-right = 2 x padding-left */
+    margin-right:-.25em;         /* margin-left = -1 x padding-left */
+    border-right:1px solid #000;
+    white-space: nowrap;
+  }
+
 
 /* main layout
 ----------------------------------------------------------*/
