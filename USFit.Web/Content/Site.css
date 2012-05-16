@@ -508,6 +508,11 @@ nav, section {
     display: block;
 }
 
+hgroup
+{
+    height:6em;
+}
+
 .float-left {
     float: left;
 }
