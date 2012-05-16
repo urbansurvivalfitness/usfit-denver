@@ -960,18 +960,18 @@ ul#social li {
     a.facebook, a.twitter {
         display: block;
         float: left;
-        height: 24px;
-        padding-left: 17px;
+        height: 32px;
+        padding-left: .5em;
         text-indent: -9999px;
-        width: 16px;
+        width: 32px;
     }
 
     a.facebook {
-        background: url("../Images/facebook.png") no-repeat;
+        background: url("../Images/facebook-32x32.png") no-repeat;
     }
 
     a.twitter {
-        background: url("../Images/twitter.png") no-repeat;
+        background: url("../Images/twitter-32x32.png") no-repeat;
     }
 
 
