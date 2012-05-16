@@ -558,6 +558,14 @@ h5, h6 {
 }
 
 
+/*	Blockquotes  */
+blockquote, blockquote p { font-size: 1em; line-height: 1.8em; color: #777; font-style: italic; }
+blockquote { margin: 0 0 1.25em; padding: .5em 1.25em 0 1.25em; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 1em; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+
 /* main layout
 ----------------------------------------------------------*/
 
