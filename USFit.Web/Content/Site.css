@@ -577,7 +577,6 @@ blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color:
 
     .main-content {
         background: url("../Images/accent.png") no-repeat;
-        padding-left: 10px;
         padding-top: 30px;
     }
 
@@ -939,7 +938,21 @@ ul#social li {
     }
 
 
+/* home page styles */
+div.primary-nav-button
+{
+    margin-bottom:4em;
+}
 
+.target-image-container
+{
+    min-height:400px;
+    height:400px;
+}
+div.target-descr
+{
+    min-height:110px;
+}
 
 
 /********************
@@ -948,9 +961,69 @@ ul#social li {
 /* =============================================================================
    Media Queries
    ========================================================================== */
+@media only screen and (max-width: 480)
+{
+    .wrapper
+	{
+	    max-width:480px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+	.content-wrapper
+	{
+	    max-width:480px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+    .image-container
+    {
+        min-width:100%;
+    }
+    
+    .button-container
+    {
+        min-width:100%;
+        margin-top:.5em;
+    }
 
+    .target-image-container
+    {
+        width:278px;
+        height:auto;
+        min-height:0px;
+    }
+    
+    .super.button, .super.button:visited 
+    {
+        font-size:2em;
+        padding: .5em .75em .6em .5em;
+        max-width:90%;
+    }
+    
+    div.primary-nav-button
+    {
+        margin-bottom:.3em;
+    }
+    
+    .secondary-nav-2
+    {
+        min-width:100%;
+    }
+    
+    .service-offerings
+    {
+        min-width:100%;
+    }
+    
+    .customer-quotes
+    {
+        min-width:100%;
+    }
+}
 @media only screen and (min-width: 480px) {
-
+    
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
@@ -1074,6 +1147,11 @@ ul#social li {
 	nav span
 	{
 	    float:left;
+	}
+	
+	.primary-nav
+	{
+	    min-width:25em;
 	}
 }
 
@@ -1249,6 +1327,67 @@ ul#social li {
             text-indent: 0;
             width: auto;
         }
+        
+        
+        
+            .wrapper
+	{
+	    max-width:850px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+	.content-wrapper
+	{
+	    max-width:850px;
+		/*width:92%;*/
+		margin:0 auto;
+	}
+	
+    .image-container
+    {
+        min-width:100%;
+    }
+    
+    .button-container
+    {
+        min-width:100%;
+        margin-top:.5em;
+    }
+
+    .target-image-container
+    {
+        width:auto;
+        height:auto;
+        min-height:0px;
+    }
+    
+    .super.button, .super.button:visited 
+    {
+        font-size:2em;
+        padding: .5em .75em .6em .5em;
+        max-width:90%;
+    }
+    
+    div.primary-nav-button
+    {
+        margin-bottom:.3em;
+    }
+    
+    .secondary-nav-2
+    {
+        min-width:100%;
+    }
+    
+    .service-offerings
+    {
+        min-width:100%;
+    }
+    
+    .customer-quotes
+    {
+        min-width:100%;
+    }
 }
 
 
