@@ -170,6 +170,7 @@
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
     <Content Include="Images\twitter-32x32.png" />
+    <Content Include="Images\USFBNR.gif" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -225,6 +226,17 @@
     <Content Include="Views\Legal\Legal.cshtml" />
     <Content Include="Views\Legal\TermsOfUse.cshtml" />
     <Content Include="Views\Legal\TermsOfService.cshtml" />
+    <Content Include="Views\Home\Pricing.cshtml" />
+    <Content Include="Views\Home\Class-Schedules.cshtml" />
+    <Content Include="Views\Home\Contact-Us.cshtml" />
+    <Content Include="Views\Home\Blog.cshtml" />
+    <Content Include="Views\Home\Our-Staff.cshtml" />
+    <Content Include="Views\Home\Our-Location.cshtml" />
+    <Content Include="Views\Home\Our-Facility.cshtml" />
+    <Content Include="Views\Home\Fitness-Enthusiast.cshtml" />
+    <Content Include="Views\Home\Youth-Athletics.cshtml" />
+    <Content Include="Views\Home\Womens-Fitness.cshtml" />
+    <Content Include="Views\Home\Seniors.cshtml" />
     <None Include="_bin_deployableAssemblies\System.Web.Optimization.dll" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />

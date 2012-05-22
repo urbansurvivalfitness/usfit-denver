@@ -704,7 +704,14 @@ ul#menu {
             text-decoration: none;
         }
 
-
+.secondary-nav-2
+{
+    text-decoration:none;
+    font-size:2em;
+    line-height:2em;
+    list-style:none;
+    text-align:center;
+}
 /* page elements
 ----------------------------------------------------------*/
 /* featured */

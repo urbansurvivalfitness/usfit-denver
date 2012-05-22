@@ -56,11 +56,11 @@
                         Secondary Navigation - 1</h4>
                     <nav>
                         <ul class="inlineRuledRight">
-                            <li><a href="#">Blog</a><span></span></li>
-                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home")</li>
-                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home")</li>
-                            <li>@Html.ActionLink("Pricing", "Pricing", "Home")</li>
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Blog", "Blog", "Home",null, new { title = "Navigate to the blog roll for Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Pricing", "Pricing", "Home", null, new { title = "Link to all pricing for all products and services offered by Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { title = "Link to the home page for Urban Survival Fitness" })</li>
                         </ul>
                     </nav>
                     <div class="clearfix"></div>
@@ -96,14 +96,14 @@
                     |
                     @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
                     |
-                    @Html.ActionLink("Blog", "#", null, new { title = "Navigate to the Blog" })
+                    @Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the Blog" })
                 </div>
             </section>
             <section id="social-footer">
                 <div class="float-right">
                     <ul id="social">
                         <li><a href="http://www.facebook.com/UrbanSurvivalFitness" title="Urban Survival Fitness on Facebook" class="facebook">Facebook</a></li>
-                        <li><a href="http://twitter.com" title="Urban Survival Fitness on Twitter" class="twitter">Twitter</a></li>
+                        <li><a href="https://twitter.com/urbansurvival4" title="Urban Survival Fitness on Twitter" class="twitter">Twitter</a></li>
                     </ul>
                 </div>
             </section>
