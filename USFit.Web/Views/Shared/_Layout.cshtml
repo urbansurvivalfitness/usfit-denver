@@ -75,8 +75,10 @@
         </header>
         <div id="body">
             @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix wrapper container_12">
+            <section class="content-wrapper main-content wrapper container_12">
                 @RenderBody()
+
+                <div class="clearfix"></div>
             </section>
         </div>
         <div class="push">
