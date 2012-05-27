@@ -1080,6 +1080,21 @@ div.target-descr
         min-width:100%;
     }
     
+    img.logo
+    {
+        width:100%;
+    }
+    
+    .single-row
+    {
+        min-width:100%;
+    }
+    
+    .benefits
+    {
+        min-width:100%;
+    }
+    
     .customer-quotes
     {
         min-width:100%;
@@ -1478,6 +1493,21 @@ div.target-descr
     }
     
     .service-offerings
+    {
+        min-width:100%;
+    }
+    
+    .single-row
+    {
+        min-width:100%;
+    }
+    
+    img.logo
+    {
+        width:100%;
+    }
+    
+    .benefits
     {
         min-width:100%;
     }
