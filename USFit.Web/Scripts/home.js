@@ -23,6 +23,56 @@ USFIT.namespace = function (ns_string) {
 };
 
 USFIT.namespace("USFIT.HomeModule");
+//USFIT.namespace("USFIT.LocationModule");
+
+//USFIT.LocationModule = (function () {
+//    var display,
+//    directionService = new google.maps.DirectionsService();
+
+//    function InitializeMap() {
+//        display = new google.maps.DirectionsRenderer();
+//        var latlng = new google.maps.LatLng(-34.397, 150.644);
+//        var myOptions =
+//        {
+//            zoom: 8,
+//            center: latlng,
+//            mapTypeId: google.maps.MapTypeId.ROADMAP
+//        };
+//        var map = new google.maps.Map($("#map"), myOptions);
+
+//        display.setMap(map);
+////        display.setPanel($("#directionsDisplay"));
+
+////        var control = document.getElementById('control');
+////        control.style.display = 'block';
+
+//    }
+
+//    function calcRoute() {
+//        var start = $("#start").val(),
+//            end = $("#end").val(),
+//            request = {
+//                origin: start,
+//                destination: end,
+//                travelMode: google.maps.DirectionsTravelMode.DRIVING
+//            };
+//        
+//        directionService.route(request, function (response, status) {
+//            if (status == google.maps.DirectionsStatus.OK) {
+//                display.setDirections(response);
+//            }
+//        });
+
+//    }
+
+
+//    return {
+//        directionsDisplay: display,
+//        directionService : directionService,
+//        calcRoute : calcRoute,
+//        InitializeMap : InitializeMap
+//    };
+//} ());
 
 USFIT.HomeModule = (function () {
     // initialize any dependencies, private properties, private methods, etc. in your var setup
@@ -55,11 +105,22 @@ USFIT.HomeModule = (function () {
 $(document).ready(function () {
 
     var homeModule = USFIT.HomeModule,
+    //locationModule = USFIT.LocationModule,
     buttonId = "",
     targetId = "",
     $buttons = $(".button"),
-    $targets = $(".target")
+    $targets = $(".target"),
+    $getDirectionsButton = $("#getDirectionsButton")
     ;
+
+//    if ($getDirectionsButton != "undefined" && $getDirectionsButton != null) {
+//        locationModule.InitializeMap();
+//    }
+
+//    $getDirectionsButton.click(function () {
+//        alert("clicked");
+//        locationModule.calcRoute();
+//    });
 
     $buttons.each(function () {
         $(this).mouseover(function () {

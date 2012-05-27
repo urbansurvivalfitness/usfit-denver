@@ -22,16 +22,12 @@
     <div class="outer-wrapper">
         <header>
             <div class="content-wrapper wrapper container_12">
-                <div class="float-left">
+                <div class="float-left header-left">
                     <hgroup class="title">
                         <h1>
                             Urban Survival Fitness</h1>
-                        <div>
                             <h4>
                                 Class! Why are you here? - To Be the Best Me that I can Be!!!</h4>
-                        </div>
-                        <div class="clearfix">
-                        </div>
                     </hgroup>
                     <blockquote class="offscreen">
                         <p>
@@ -68,7 +64,7 @@
                     <div class="clearfix"></div>
                     
                         <h4 class="float-right">
-                            Contact Us: <span>303-668-0325</span></h4>
+                            Contact Us: <span>@USFit.Web.Constants.PrimaryPhone</span></h4>
                     
                 </div>
             </div>
@@ -117,7 +113,10 @@
             </article>
         </div>
     </footer>
+
     <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+
+    @RenderSection("javaScriptFooter", required:false)
     <script>
         var _gaq = [['_setAccount', 'UA-30913081-1'], ['_trackPageview']];
         (function (d, t) {
