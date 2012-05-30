@@ -8,6 +8,30 @@ namespace USFit.Web.Controllers
 {
     public class HomeController : Controller
     {
+        [ActionName("Seniors")]
+        public ActionResult Seniors()
+        {
+            return View();
+        }
+
+        [ActionName("Womens-Fitness")]
+        public ActionResult WomensFitness()
+        {
+            return View();
+        }
+
+        [ActionName("Youth-Athletics")]
+        public ActionResult YouthAthletics()
+        {
+            return View();
+        }
+
+        [ActionName("Fitness-Enthusiast")]
+        public ActionResult FitnessEnthusiast()
+        {
+            return View();
+        }
+           
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
@@ -22,10 +46,44 @@ namespace USFit.Web.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Pricing()
         {
-            ViewBag.Message = "Your quintessential contact page.";
+            return View();
+        }
 
+        [ActionName("Class-Schedules")]
+        public ActionResult Schedules()
+        {
+            return View();
+        }
+
+        [ActionName("Contact-Us")]
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
+
+        public ActionResult Blog()
+        {
+            return View();
+        }
+
+        [ActionName("Our-Staff")]
+        public ActionResult OurStaff()
+        {
+            return View();
+        }
+
+
+        [ActionName("Our-Facility")]
+        public ActionResult OurFacility()
+        {
+            return View();
+        }
+
+        [ActionName("Our-Location")]
+        public ActionResult OurLocation()
+        {
             return View();
         }
     }

@@ -8,6 +8,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    @RenderSection("meta", required:false)
+
     <title>@ViewBag.Title - Urban Survival Fitness</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="~/humans.txt" rel="author" type="text/plain" />
@@ -20,16 +22,12 @@
     <div class="outer-wrapper">
         <header>
             <div class="content-wrapper wrapper container_12">
-                <div class="float-left">
+                <div class="float-left header-left">
                     <hgroup class="title">
                         <h1>
                             Urban Survival Fitness</h1>
-                        <div>
                             <h4>
                                 Class! Why are you here? - To Be the Best Me that I can Be!!!</h4>
-                        </div>
-                        <div class="clearfix">
-                        </div>
                     </hgroup>
                     <blockquote class="offscreen">
                         <p>
@@ -56,25 +54,27 @@
                         Secondary Navigation - 1</h4>
                     <nav>
                         <ul class="inlineRuledRight">
-                            <li><a href="#">Blog</a><span></span></li>
-                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home")</li>
-                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home")</li>
-                            <li>@Html.ActionLink("Pricing", "Pricing", "Home")</li>
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Blog", "Blog", "Home",null, new { title = "Navigate to the blog roll for Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Pricing", "Pricing", "Home", null, new { title = "Link to all pricing for all products and services offered by Urban Survival Fitness" })</li>
+                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { title = "Link to the home page for Urban Survival Fitness" })</li>
                         </ul>
                     </nav>
                     <div class="clearfix"></div>
                     
                         <h4 class="float-right">
-                            Contact Us: <span>303-668-0325</span></h4>
+                            Contact Us: <span>@USFit.Web.Constants.PrimaryPhone</span></h4>
                     
                 </div>
             </div>
         </header>
         <div id="body">
             @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix wrapper container_12">
+            <section class="content-wrapper main-content wrapper container_12">
                 @RenderBody()
+
+                <div class="clearfix"></div>
             </section>
         </div>
         <div class="push">
@@ -96,14 +96,14 @@
                     |
                     @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
                     |
-                    @Html.ActionLink("Blog", "#", null, new { title = "Navigate to the Blog" })
+                    @Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the Blog" })
                 </div>
             </section>
             <section id="social-footer">
                 <div class="float-right">
                     <ul id="social">
                         <li><a href="http://www.facebook.com/UrbanSurvivalFitness" title="Urban Survival Fitness on Facebook" class="facebook">Facebook</a></li>
-                        <li><a href="http://twitter.com" title="Urban Survival Fitness on Twitter" class="twitter">Twitter</a></li>
+                        <li><a href="https://twitter.com/urbansurvival4" title="Urban Survival Fitness on Twitter" class="twitter">Twitter</a></li>
                     </ul>
                 </div>
             </section>
@@ -113,7 +113,10 @@
             </article>
         </div>
     </footer>
+
     <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+
+    @RenderSection("javaScriptFooter", required:false)
     <script>
         var _gaq = [['_setAccount', 'UA-30913081-1'], ['_trackPageview']];
         (function (d, t) {

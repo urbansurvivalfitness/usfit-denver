@@ -102,6 +102,12 @@ html, body {
 }
 .footer, .push {
 	height: 142px; /* .push must be the same height as .footer */
+	clear:both;
+}
+
+.push
+{
+    background-color:#efeeef;
 }
 
 /* ===== Grid Styles ======================================================== */
@@ -482,7 +488,6 @@ html {
 
 body {
     background-color: #fff;
-    border-top: solid 10px #000;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -609,12 +614,12 @@ ul.inlineRuled {
 #body {
     background-color: #efeeef;
     clear: both;
-    padding-bottom: 35px;
 }
 
     .main-content {
         background: url("../Images/accent.png") no-repeat;
         padding-top: 30px;
+        background-color: #efeeef;
     }
 
     .featured + .main-content {
@@ -704,7 +709,14 @@ ul#menu {
             text-decoration: none;
         }
 
-
+.secondary-nav-2
+{
+    text-decoration:none;
+    font-size:2em;
+    line-height:2em;
+    list-style:none;
+    text-align:center;
+}
 /* page elements
 ----------------------------------------------------------*/
 /* featured */
@@ -731,6 +743,20 @@ ul#menu {
             font-size: 1.1em;
         }
 
+
+.directionsContainer
+{
+    background-color:White;
+    border: 1px solid #676767;
+    padding:.25em;
+}
+
+div#map
+   {
+        height: 390px; 
+        width: 489px
+   }
+   
 /* page titles */
 hgroup.title {
     margin-bottom: 10px;
@@ -975,6 +1001,69 @@ ul#social li {
     }
 
 
+section#secondary-contacts h3
+{
+    margin-top:.5em;
+    font-weight:200;
+    font-size:1.75em;
+    line-height:2em;
+}
+section#secondary-contacts .spacer
+{
+    margin-top:.25em;
+    margin-bottom:.25em;
+    margin-left:1.5em;
+}
+
+
+section#secondary-contacts ul
+{
+    margin:0px;
+    margin-left:2em;
+    padding:0px;
+}
+
+section#secondary-contacts li
+{
+    list-style:none;
+}
+section#secondary-contacts li span
+{
+    font-size:1.75em;
+    font-weight:600;
+}    
+
+section#secondary-contacts li span.phone
+{
+    font-size:1.5em;
+    font-weight:400;
+}
+
+div#featured-contacts h2
+{
+    text-transform:uppercase;
+    font-size:1.75em;
+    font-weight:200;
+    line-height:2em;
+    border-bottom:1px solid black;
+}
+div#featured-contacts
+{
+    min-height:100%;
+}
+div#featured-contacts p
+{
+    margin-top:1em;
+    font-size:1.25em;
+}
+
+div#featured-contacts p span
+{
+    font-size:1.5em;
+    font-weight:500;
+    display:block;
+}
+
 /* home page styles */
 div.primary-nav-button
 {
@@ -1054,10 +1143,51 @@ div.target-descr
         min-width:100%;
     }
     
+    img.logo
+    {
+        width:100%;
+    }
+    
+    .single-row
+    {
+        min-width:100%;
+    }
+    
+    .benefits
+    {
+        min-width:100%;
+    }
+    
     .customer-quotes
     {
         min-width:100%;
     }
+    
+    header
+    {
+        min-height:220px;
+    }
+    
+    .header-left
+    {
+        min-height:120px;
+    }
+    
+    .grid_6
+    {
+        min-width:100%;
+    }
+    .map-container
+    {
+        margin-top:10px;
+        min-width:100%;
+    }
+   
+   div#map
+   {
+       height:220px;
+       width:400px;
+   }
 }
 @media only screen and (min-width: 480px) {
     
@@ -1189,6 +1319,15 @@ div.target-descr
 	.primary-nav
 	{
 	    min-width:25em;
+	}
+	
+	.featured 
+	{
+	    min-height:560px;
+	}
+	.featured-content
+	{
+	    min-height:510px;
 	}
 }
 
@@ -1421,10 +1560,46 @@ div.target-descr
         min-width:100%;
     }
     
+    .single-row
+    {
+        min-width:100%;
+    }
+    
+    img.logo
+    {
+        width:100%;
+    }
+    
+    .benefits
+    {
+        min-width:100%;
+    }
+    
     .customer-quotes
     {
         min-width:100%;
     }
+    
+    .header-left
+    {
+        min-height:120px;
+    }
+    
+    .grid_6
+    {
+        min-width:100%;
+    }
+    .map-container
+    {
+        margin-top:10px;
+        min-width:100%;
+    }
+   
+   div#map
+   {
+       height:220px;
+       width:425px;
+   }
 }
 
 

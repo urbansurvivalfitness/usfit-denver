@@ -44,6 +44,12 @@ namespace USFit.Web
             RegisterRoutes(RouteTable.Routes);
 
             BundleTable.Bundles.EnableDefaultBundles();
+
+#if DEBUG
+            foreach (var bundle in BundleTable.Bundles) {
+                bundle.Transform = new NoTransform();
+            }
+#endif
         }
     }
 }
