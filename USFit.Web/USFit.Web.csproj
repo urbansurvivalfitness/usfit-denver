@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
+    <Content Include="Images\email.jpg" />
     <Content Include="Images\facebook-32x32.png" />
     <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />
     <Content Include="Images\home\seniors-6498326.jpg" />
@@ -170,6 +171,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
+    <Content Include="Images\location.jpg" />
+    <Content Include="Images\phone.jpg" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
     <Content Include="robots.txt" />

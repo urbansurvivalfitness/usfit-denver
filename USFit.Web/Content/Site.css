@@ -1039,10 +1039,13 @@ section#secondary-contacts li span.phone
     font-weight:400;
 }
 
-div#featured-contacts p.tag
+div#featured-contacts h2
 {
-    font-size:1.25em;
+    text-transform:uppercase;
+    font-size:1.75em;
     font-weight:200;
+    line-height:2em;
+    border-bottom:1px solid black;
 }
 div#featured-contacts
 {
