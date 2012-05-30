@@ -3,20 +3,55 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section featured{
-    <section class="featured">
-        <div class="featured-content content-wrapper container_12">
-            <div class="grid_12">
-                <h2>
-                    Featured Contacts</h2>
-                coming soon...
+    <section class="featured" style="min-height:100%;">
+        <div class="featured-content content-wrapper container_12" style="min-height:100%;">
+            <div id="featured-contacts" class="grid_12">
+                <p class="tag">We want to talk to you (preferably in real life), so here is the basic information that you need to get in touch with us.  If you 
+                were hoping for a "contact us" form, please give us a call or send us an email requesting this feature and we will add it to our features list...</p>
+                <p>Phone: <span>@USFit.Web.Constants.PrimaryPhone</span></p>
+                <p>Email: <span>UrbanSurvivalFitness@gmail.com</span></p>
+                <p>Address: <span>5929 E 38th Ave, Building B, Denver, CO 80207</span></p>
             </div>
-
-            <div class="clearfix"></div>
+            <div class="clearfix">
+            </div>
         </div>
     </section>
 }
-<div class="grid_12">
-    <h2>
-        Secondary Content</h2>
-    coming soon...
-</div>
+<section id="secondary-contacts">
+    <div class="grid_12">
+        <h3>Class Specifics</h3>
+        <ul>
+            <li>Contact - <span>Jeffrey McMillan</span></li>
+            <li>Phone - <span class="phone">303-668-0325</span></li>
+            <li>Email - jeffrey@urbansurvivalfitness.com</li>
+        </ul>
+    </div>
+    <div class="grid_12 spacer">
+        <strong>- OR -</strong>
+    </div>
+    <div class="grid_12">
+        <ul>
+            <li>Contact - <span>Johnnie Williams</span></li>
+            <li>Phone - <span class="phone">303-301-3371</span></li>
+            <li>Email - johnnie@urbansurvivalfitness.com</li>
+        </ul>
+    </div>
+    <div class="grid_12">
+        <h3>Administrative & General Questions</h3>
+        <ul>
+            <li>Contact - <span>Terri Carrigan</span></li>
+            <li>Phone - <span class="phone">720-838-4401</span></li>
+            <li>Email - terri@urbansurvivalfitness.com</li>
+        </ul>
+    </div>
+    <div class="grid_12">
+        <h3>Special Classes</h3>
+        <ul>
+            <li>Zumba - zumba@urbansurvivalfitness.com</li>
+            <li>Yoga - yoga@urbansurvivalfitness.com</li>
+        </ul>
+    </div>
+
+    <div class="clearfix"></div>
+</section>
+

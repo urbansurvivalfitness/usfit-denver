@@ -1001,6 +1001,66 @@ ul#social li {
     }
 
 
+section#secondary-contacts h3
+{
+    margin-top:.5em;
+    font-weight:200;
+    font-size:1.75em;
+    line-height:2em;
+}
+section#secondary-contacts .spacer
+{
+    margin-top:.25em;
+    margin-bottom:.25em;
+    margin-left:1.5em;
+}
+
+
+section#secondary-contacts ul
+{
+    margin:0px;
+    margin-left:2em;
+    padding:0px;
+}
+
+section#secondary-contacts li
+{
+    list-style:none;
+}
+section#secondary-contacts li span
+{
+    font-size:1.75em;
+    font-weight:600;
+}    
+
+section#secondary-contacts li span.phone
+{
+    font-size:1.5em;
+    font-weight:400;
+}
+
+div#featured-contacts p.tag
+{
+    font-size:1.25em;
+    font-weight:200;
+}
+div#featured-contacts
+{
+    min-height:100%;
+}
+div#featured-contacts p
+{
+    margin-top:1em;
+    font-size:1.25em;
+}
+
+div#featured-contacts p span
+{
+    font-size:1.5em;
+    font-weight:500;
+    display:block;
+}
+
 /* home page styles */
 div.primary-nav-button
 {
