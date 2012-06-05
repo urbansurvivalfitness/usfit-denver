@@ -587,7 +587,7 @@ ul.inlineRuled {
     float:left;
     padding:0 .5em 0 .25em;      /* padding-right = 2 x padding-left */
     margin-left:-.25em;         /* margin-left = -1 x padding-left */
-    border-left:1px solid #000;
+    /*border-left:1px solid #000;*/
     white-space: nowrap;
   }
  
@@ -603,7 +603,7 @@ ul.inlineRuled {
     float:right;
     padding:0 .25em 0 .5em;      /* padding-right = 2 x padding-left */
     margin-right:-.25em;         /* margin-left = -1 x padding-left */
-    border-right:1px solid #000;
+    /*border-right:1px solid #000;*/
     white-space: nowrap;
   }
 
@@ -717,6 +717,13 @@ ul#menu {
     list-style:none;
     text-align:center;
 }
+
+ul.secondary-nav-2
+{
+    margin-left:0px;
+    padding-left:0px;
+}
+
 /* page elements
 ----------------------------------------------------------*/
 /* featured */

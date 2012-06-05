@@ -15,6 +15,8 @@
     <link href="~/humans.txt" rel="author" type="text/plain" />
     <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
     <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/base/css")" rel="stylesheet" type="text/css" />
+
+    @RenderSection("theme", required:false)
     <meta name="viewport" content="width=device-width" />
 </head>
 <body>
@@ -80,7 +82,7 @@
         <div class="push">
         </div>
     </div>
-    <footer>
+    <footer style="margin-top:10px;">
         <div class="footer content-wrapper container_12">
             <h4>
                 Site Information</h4>
@@ -89,13 +91,9 @@
                     <p>
                         &copy; 2010-@DateTime.Now.Year - Urban Survival Fitness&trade; - All Rights Reserved</p>
                     @Html.ActionLink("Home", "", "home", null, new { title = "Navigate to Home Page for Urban Survival Fitness" })
-                    |
                     @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" })
-                    |
                     @Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })
-                    |
                     @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
-                    |
                     @Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the Blog" })
                 </div>
             </section>

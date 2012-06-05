@@ -134,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
+    <Content Include="Content\color1.css" />
+    <Content Include="Content\color2.css" />
+    <Content Include="Content\color3.css" />
     <Content Include="Images\email.jpg" />
     <Content Include="Images\facebook-32x32.png" />
     <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />

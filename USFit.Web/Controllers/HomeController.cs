@@ -32,8 +32,18 @@ namespace USFit.Web.Controllers
             return View();
         }
            
+        private bool ThemeIsValid(string theme)
+        {
+            return theme.Equals("color1", StringComparison.InvariantCultureIgnoreCase) || theme.Equals("color2", StringComparison.InvariantCultureIgnoreCase) || theme.Equals("color3", StringComparison.InvariantCultureIgnoreCase);
+        }
         public ActionResult Index()
         {
+            var theme = Request.QueryString["t"];
+
+            if (theme != null && ThemeIsValid(theme)) {
+                ViewBag.Theme = theme;
+            }
+
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();

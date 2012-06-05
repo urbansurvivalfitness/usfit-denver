@@ -1,5 +1,6 @@
 @{
     ViewBag.Title = "Home Page";
+    var theme = ViewBag.Theme;
 }
 @section featured {
     <section class="featured">
@@ -7,7 +8,7 @@
             <div class="grid_8 image-container">
                 <div id="fitness-enthusiast" class="target t1">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" src="@Url.Content("images/home/fitness-enthusiast-13622093.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a group of fitness enthusiasts having fun exercising together" src="@Url.Content("images/home/fitness-enthusiast-13622093.jpg")" /></div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -20,7 +21,7 @@
                 </div>
                 <div id="youth-athletics" class="offscreen target t2">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" src="@Url.Content("images/home/youth-athletics-7513397.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a group of young children having fun and exercising together" src="@Url.Content("images/home/youth-athletics-7513397.jpg")" /></div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -34,7 +35,7 @@
                 </div>
                 <div id="womens-fitness" class="offscreen target t3">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" src="@Url.Content("images/home/womens-self-defense-12197609.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a woman having fun practicing self defense and exercising" src="@Url.Content("images/home/womens-self-defense-12197609.jpg")" /></div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -48,7 +49,7 @@
                 </div>
                 <div id="seniors" class="offscreen target t4">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" src="@Url.Content("images/home/seniors-6498326.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a group of seniors having fun exercising together" src="@Url.Content("images/home/seniors-6498326.jpg")" /></div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -99,11 +100,11 @@
                 <cite>Joe S. <span>Denver, CO</span></cite></p>
         </blockquote>
         <blockquote>
+            <p>Urban Survival Fitness is a place you test your limits every time, and its FUN! 
+                I feel I'm getting the best work-out in 50 minutes than I could ever achieve at the gym... 
+                Jeff is going to push you, but ultimately he wants you to know you're the only one who can make it happen!"</p>
             <p>
-                This isn't a social club like CAC, Forza, or DAC. We show up on time, get in, work
-                our tails off, and get out. You will get out of it, what you put in.</p>
-            <p>
-                <cite>Tom S. <span>Park Hill, CO</span></cite></p>
+                <cite>Monica H. <span>Denver, CO</span></cite></p>
         </blockquote>
         <blockquote>
             <p>I rely on the cardio aspect of the group fitness to suppliment my 
@@ -129,12 +130,15 @@
         <h3>
             Features</h3>
         <ul>
-            <li>Classes combine boxing, martial arts, yoga & dance techniques</li>
-            <li>Multiple certified personal trainers in every class</li>
-            <li>One on one coaching is available</li>
+            <li>Develop strength & cardio endurance</li>
+            <li>One or more certified personal trainers in every class</li>
+            <li>One on one training is available</li>
             <li>Personalized fitness & nutrition programs are available</li>
             <li>All equipment is safe, clean, and well maintained</li>
-            <li>Fun - Friendly & Challenging Classes</li>
+            <li>Classes combine martial arts & dance techniques</li>
+            <li>Build agility & power with sports specific moves, yoga, and core strength</li>
+            <li>Body weight exercises build the foundation of our classes</li>
+            <li>Guaranteed Challenging, Fun & Friendly Group Classes</li>
         </ul>
     </section>
 </div>
@@ -143,10 +147,9 @@
         <h3>
             Benefits</h3>
         <ul>
-            <li>Classes always change - unlike your average bootacamp</li>
-            <li>A great suppliment to any triathalon - strong man - obstacle course - military style
-                event - or athletic program that you may be training for</li>
-            <li>Participate in workouts that are as tough as crossfit without the elitest attitude
+            <li>Classes always change - unlike your average bootcamp</li>
+            <li>A great supplement to any triathalon - strong man - obstacle course - adventure course - or athletic program that you may be training for</li>
+            <li>Participate in workouts that are as tough as crossfit without the elitist attitude
                 or technical requirements</li>
             <li>With our help you will build the body that you want to see in the mirror</li>
             <li>Build an athletic body and mind that is bigger, stronger, and faster than the average
@@ -181,4 +184,13 @@
 
 @section meta{
     <meta name="WebsiteSpark" content="ecUjPILopf" />
+}
+
+@section theme{
+    @{
+        if(theme != null)
+        {
+            <link href="@Url.Content("~/Content/" + theme + ".css")" rel="stylesheet" type="text/css" />
+        }
+    }
 }
