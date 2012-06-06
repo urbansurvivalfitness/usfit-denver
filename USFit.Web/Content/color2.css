@@ -1,2 +1,126 @@
-﻿body {
+﻿/*
+colors from rip fitness
+h1 #D42C15
+h2 #0D3B7F
+base #0052CC
+h4 #78990F
+h5 #637F06
+*/
+
+html {
+    background-color: #0052CC;
 }
+
+body 
+{
+    background-color:#0052CC;
+    color:#111;
+}
+
+blockquote, blockquote p { color: #333; }
+blockquote { border-left: 1px solid #ddd; }
+blockquote cite { color: #111; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #111; }
+
+a:link, a:visited,
+a:active, a:hover {
+    color: #ffffff;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.orange.button, .orange.button:visited		{ background-color: #D42C15; }
+.orange.button:hover						{ background-color: #E22F17; }
+a.super.button
+{
+    color:#f2f2f2;
+}
+
+.main-content a
+{
+    color: #D42C15;
+    font-weight:600;
+}
+
+.main-content h3
+{
+    font-size:1.75em;
+    font-weight:300;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #ffffff;
+}
+
+ul#menu li a {
+    color: #ffffff;
+}
+
+ul#menu li a:hover {
+    color: #ffffff;
+}
+        
+.featured
+{
+    background-color:#0052CC;
+    color:#ffffff;
+}
+
+        .featured hgroup.title h1, .featured hgroup.title h2 {
+            color: #0D3B7F;
+        }
+
+    .featured .content-wrapper {
+        background-color: #0D3B7F;
+        background-image: -ms-linear-gradient(left, #0D3B7F 0%, #003366 100%);
+        background-image: -o-linear-gradient(left, #0D3B7F 0%, #003366 100%);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0D3B7F), color-stop(1, #003366));
+        background-image: -webkit-linear-gradient(left, #0D3B7F 0%, #003366 100%);
+        background-image: linear-gradient(left, #0D3B7F 0%, #003366 100%);
+        color:#ffffff;
+        padding: 20px 40px 30px 40px;
+    }
+
+.featured + .main-content 
+{
+    background-image:none;
+    padding-top:20px;
+}
+
+
+.push
+{
+    background-color:#78990F;
+}
+
+#body {
+    background-color: #78990F;
+}
+
+.main-content {
+    background-color: #78990F;
+}
+
+
+footer {
+    background-color: #637F06;
+    color:#ffffff;
+}
+
+
+.site-title {
+    color: #D42C15;
+}
+
+.site-title a, .site-title a:hover, .site-title a:active {
+    color: #D42C15;
+}
+
