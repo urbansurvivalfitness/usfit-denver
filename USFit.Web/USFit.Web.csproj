@@ -137,8 +137,11 @@
     <Content Include="Content\color1.css" />
     <Content Include="Content\color2.css" />
     <Content Include="Content\color3.css" />
+    <Content Include="Images\email-16.png" />
+    <Content Include="Images\email-32.png" />
     <Content Include="Images\email.jpg" />
     <Content Include="Images\facebook-32x32.png" />
+    <Content Include="Images\heroAccent-1.png" />
     <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />
     <Content Include="Images\home\seniors-6498326.jpg" />
     <Content Include="Images\home\youth-athletics-7513397.jpg" />
@@ -174,7 +177,11 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
+    <Content Include="Images\location-16.png" />
+    <Content Include="Images\location-32.png" />
     <Content Include="Images\location.jpg" />
+    <Content Include="Images\phone-16.png" />
+    <Content Include="Images\phone-32.png" />
     <Content Include="Images\phone.jpg" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
