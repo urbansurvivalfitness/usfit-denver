@@ -139,7 +139,8 @@
     <Content Include="Content\color3.css" />
     <Content Include="Images\email-16.png" />
     <Content Include="Images\email-32.png" />
-    <Content Include="Images\email.jpg" />
+    <Content Include="Images\email-red-16.png" />
+    <Content Include="Images\email-red-32.png" />
     <Content Include="Images\facebook-32x32.png" />
     <Content Include="Images\heroAccent-1.png" />
     <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />
@@ -179,10 +180,12 @@
     <Content Include="humans.txt" />
     <Content Include="Images\location-16.png" />
     <Content Include="Images\location-32.png" />
-    <Content Include="Images\location.jpg" />
+    <Content Include="Images\location-red-16.png" />
+    <Content Include="Images\location-red-32.png" />
     <Content Include="Images\phone-16.png" />
     <Content Include="Images\phone-32.png" />
-    <Content Include="Images\phone.jpg" />
+    <Content Include="Images\phone-red-16.png" />
+    <Content Include="Images\phone-red-32.png" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
     <Content Include="robots.txt" />
