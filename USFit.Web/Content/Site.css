@@ -618,13 +618,55 @@ ul.inlineRuled {
 
     .main-content {
         background: url("../Images/accent.png") no-repeat;
-        padding-top: 30px;
+        padding-top: 35px;
         background-color: #efeeef;
     }
 
     .featured + .main-content {
         background: url("../Images/heroAccent.png") no-repeat;
+        background-position: 60px 0;
     }
+
+
+.contact-us-container
+{
+    margin-top:.25em;
+}
+
+.phone-image-16
+{
+    height:16px;
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.phone-image-red-16
+{
+    height:16px;
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.location-image-red-16
+{
+    height:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.email-image-red-16
+{
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:6px;
+}
+
 
 footer {
     clear: both;
@@ -1719,12 +1761,6 @@ ul#menu li a:hover {
         color: #000;
         padding: 20px 40px 30px 40px;
     }
-
-.featured + .main-content 
-{
-    background-image:none;
-}
-
 
 .push
 {
