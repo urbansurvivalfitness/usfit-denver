@@ -143,8 +143,12 @@
     <Content Include="Images\email-red-32.png" />
     <Content Include="Images\facebook-32x32.png" />
     <Content Include="Images\heroAccent-1.png" />
+    <Content Include="Images\home\fitness-enthusiast-1.jpg" />
     <Content Include="Images\home\fitness-enthusiast-13622093.jpg" />
+    <Content Include="Images\home\seniors-1.jpg" />
     <Content Include="Images\home\seniors-6498326.jpg" />
+    <Content Include="Images\home\womens-self-defense-1.jpg" />
+    <Content Include="Images\home\youth-athletics-1.jpg" />
     <Content Include="Images\home\youth-athletics-7513397.jpg" />
     <Content Include="Images\home\womens-self-defense-12197609.jpg" />
     <Content Include="Images\button-overlay.png" />
