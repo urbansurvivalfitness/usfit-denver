@@ -8,6 +8,12 @@ namespace USFit.Web.Controllers
 {
     public class HomeController : Controller
     {
+        [ActionName("Special-Events")]
+        public ActionResult SpecialEvents()
+        {
+            return View();
+        }
+
         [ActionName("Seniors")]
         public ActionResult Seniors()
         {

@@ -8,15 +8,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    @RenderSection("meta", required:false)
-
+    @RenderSection("meta", required: false)
     <title>@ViewBag.Title - Urban Survival Fitness</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="~/humans.txt" rel="author" type="text/plain" />
     <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
     <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/base/css")" rel="stylesheet" type="text/css" />
-
-    @RenderSection("theme", required:false)
+    @RenderSection("theme", required: false)
     <meta name="viewport" content="width=device-width" />
 </head>
 <body>
@@ -26,95 +24,88 @@
             <div class="content-wrapper wrapper container_12">
                 <div class="float-left header-left">
                     <hgroup class="title">
-                        <h1>
-                            Urban Survival Fitness</h1>
-                            <h4>
-                                Class! Why are you here? - To Be the Best Me that I can Be!!!</h4>
-                    </hgroup>
+                        <h1>Urban Survival Fitness</h1>
+                        <h4>Class! Why are you here? - To Be the Best Me that I can Be!!!</h4></hgroup>
                     <blockquote class="offscreen">
-                        <p>
-                            We are the best no frills fitness gym in Denver, servicing the Park Hill, City Park
+                        <p>We are the best no frills fitness gym in Denver, servicing the Park Hill, City Park
                             and Stapleton areas.</p>
-                        <p>
-                            Our specialized group fitness classes are designed for beginning to elite levels
+                        <p>Our specialized group fitness classes are designed for beginning to elite levels
                             of fitness. Our students encompass professionals, youth, former athletes, weekend
                             warriors, competitive athletes and seniors; all striving to be in the best shape
                             they can be.</p>
-                        <p>
-                            Each class is intense, fun, different and guaranteed to confront you with a new
-                            challenge. Our classes are based on the foundation of body weight exercises which
-                            incorporate martial arts, dance techniques, strength training, cardio endurance,
-                            yoga, core and sports specific movements.</p>
-                        <p>
-                            Can you survive? With the help of our Specialists and the support of fellow students,
+                        <p>Each class is intense, fun, different and guaranteed to confront you with a new challenge.
+                            Our classes are based on the foundation of body weight exercises which incorporate
+                            martial arts, dance techniques, strength training, cardio endurance, yoga, core
+                            and sports specific movements.</p>
+                        <p>Can you survive? With the help of our Specialists and the support of fellow students,
                             we know you can!</p>
-                        <cite>Jeffery McMillan - Urban Survival Fitness</cite>
-                    </blockquote>
+                        <cite>Jeffery McMillan - Urban Survival Fitness</cite> </blockquote>
                 </div>
                 <div class="float-right primary-nav">
-                    <h4 class="offscreen">
-                        Secondary Navigation - 1</h4>
-                    <nav>
-                        <ul class="inlineRuledRight">
-                            <li>@Html.ActionLink("Blog", "Blog", "Home",null, new { title = "Navigate to the blog roll for Urban Survival Fitness" })</li>
-                            <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
-                            <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
-                            <li>@Html.ActionLink("Pricing", "Pricing", "Home", null, new { title = "Link to all pricing for all products and services offered by Urban Survival Fitness" })</li>
-                            <li>@Html.ActionLink("Home", "Index", "Home", null, new { title = "Link to the home page for Urban Survival Fitness" })</li>
-                        </ul>
-                    </nav>
-                    <div class="clearfix"></div>
-                    
-                        <h4 class="float-right contact-us-container">
-                            <div><img src="@Url.Content("../Images/phone-16.png")" class="phone-image-16"></img>Contact Us: <span>@USFit.Web.Constants.PrimaryPhone</span></div></h4>
-                    
+                    <h4 class="offscreen">Secondary Navigation - 1</h4><nav><ul class="inlineRuledRight">
+                        <li>@Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the blog roll for Urban Survival Fitness" })</li>
+                        <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
+                        <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
+                        <li>@Html.ActionLink("Pricing", "Pricing", "Home", null, new { title = "Link to all pricing for all products and services offered by Urban Survival Fitness" })</li>
+                        <li>@Html.ActionLink("Home", "Index", "Home", null, new { title = "Link to the home page for Urban Survival Fitness" })</li>
+                    </ul></nav>
+                    <div class="clearfix">
+                    </div>
+                    <h4 class="float-right contact-us-container">
+                        <div>
+                            <img src="@Url.Content("../Images/phone-16.png")" class="phone-image-16"></img>Contact
+                            Us: <span>@USFit.Web.Constants.PrimaryPhone</span></div>
+                    </h4>
+                    <div class="clearfix">
+                    </div>
+                    <div class="special-events-nav float-right">
+                        <img src="@Url.Content("../Images/shiny_calendar_32px.png")" /><a href="~/Home/Special-Events">Special
+                            Events</a></div>
                 </div>
             </div>
         </header>
         <div id="body">
+            @RenderSection("after-header", required: false)
             @RenderSection("featured", required: false)
             <section class="content-wrapper main-content wrapper container_12">
                 @RenderBody()
-
-                <div class="clearfix"></div>
+                <div class="clearfix">
+                </div>
             </section>
         </div>
         <div class="push">
         </div>
     </div>
-    <footer style="margin-top:10px;">
+    <footer style="margin-top: 10px;">
         <div class="footer content-wrapper container_12">
-            <h4>
-                Site Information</h4>
-            <section>
+            <h4>Site Information</h4><section>
                 <div class="float-left">
-                    <p>
-                        &copy; 2010-@DateTime.Now.Year - Urban Survival Fitness&trade; - All Rights Reserved</p>
+                    <p>&copy; 2010-@DateTime.Now.Year - Urban Survival Fitness&trade; - All Rights Reserved</p>
                     @Html.ActionLink("Home", "", "home", null, new { title = "Navigate to Home Page for Urban Survival Fitness" })
                     @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" })
                     @Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })
                     @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
                     @Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the Blog" })
                 </div>
-            </section>
-            <section id="social-footer">
+            </section> <section id="social-footer">
                 <div class="float-right">
                     <ul id="social">
-                        <li><a href="http://www.facebook.com/UrbanSurvivalFitness" title="Urban Survival Fitness on Facebook" class="facebook">Facebook</a></li>
-                        <li><a href="https://twitter.com/urbansurvival4" title="Urban Survival Fitness on Twitter" class="twitter">Twitter</a></li>
+                        <li>
+                            <a href="http://www.facebook.com/UrbanSurvivalFitness" title="Urban Survival Fitness on Facebook"
+                                class="facebook">Facebook</a></li>
+                        <li>
+                            <a href="https://twitter.com/urbansurvival4" title="Urban Survival Fitness on Twitter"
+                                class="twitter">Twitter</a></li>
                     </ul>
                 </div>
             </section>
             <div class="clearfix">
             </div>
-            <article>
-            </article>
+            <article></article>
         </div>
     </footer>
-
     <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
-
-    @RenderSection("javaScriptFooter", required:false)
+    @RenderSection("javaScriptFooter", required: false)
     <script>
         var _gaq = [['_setAccount', 'UA-30913081-1'], ['_trackPageview']];
         (function (d, t) {

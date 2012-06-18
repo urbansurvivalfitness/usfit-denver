@@ -126,6 +126,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LegalController.cs" />
+    <Compile Include="Controllers\SpecialEventsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +183,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
+    <Content Include="Images\info-red-64.png" />
     <Content Include="Images\location-16.png" />
     <Content Include="Images\location-32.png" />
     <Content Include="Images\location-red-16.png" />
@@ -190,6 +192,8 @@
     <Content Include="Images\phone-32.png" />
     <Content Include="Images\phone-red-16.png" />
     <Content Include="Images\phone-red-32.png" />
+    <Content Include="Images\shiny_calendar_32px.png" />
+    <Content Include="Images\shiny_calendar_64px.png" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
     <Content Include="robots.txt" />
@@ -258,6 +262,8 @@
     <Content Include="Views\Home\Youth-Athletics.cshtml" />
     <Content Include="Views\Home\Womens-Fitness.cshtml" />
     <Content Include="Views\Home\Seniors.cshtml" />
+    <Content Include="Views\Home\Special-Events.cshtml" />
+    <Content Include="Views\SpecialEvents\Urban-Survivalist-Obstacle-Course.cshtml" />
     <None Include="_bin_deployableAssemblies\System.Web.Optimization.dll" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />

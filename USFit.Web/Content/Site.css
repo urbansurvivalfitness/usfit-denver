@@ -766,12 +766,26 @@ ul.secondary-nav-2
     padding-left:0px;
 }
 
+.special-events-nav a
+{
+    font-size:2em;
+    line-height:2em;
+}
+
+.special-events-nav img
+{
+    margin-top:-12px;
+}
+
 /* page elements
 ----------------------------------------------------------*/
 /* featured */
 .featured {
     background-color: #fff;
-    
+}
+.featured a
+{
+    color:#000;
 }
 
     .featured .content-wrapper {
@@ -1055,6 +1069,38 @@ ul#social li {
         background: url("../Images/twitter-32x32.png") no-repeat;
     }
 
+.checkout-border-left
+{
+    border-left: 1px solid #3F7E3F;
+    padding:.5em;
+}
+
+.special-event table
+{
+ border-collapse:collapse;
+}
+
+.special-event table th
+{
+ text-align:left;
+}
+
+.special-event table td.center
+{
+ text-align:right;
+}
+
+.special-event ul
+{
+    margin:0px;
+    margin-left:.5em;
+    padding:0px;
+}
+
+.special-event li
+{
+    list-style:none;
+}
 
 section#secondary-contacts h3
 {
@@ -1163,6 +1209,16 @@ h2#location-header span
     font-size:1.25em;
     display:inline;
     font-weight:400;
+}
+
+a.more-info
+{
+    font-size:2em;
+}
+img.more-info
+{
+    margin-top:-.7em;
+    margin-right:.5em;
 }
 
 /********************
@@ -1743,6 +1799,15 @@ ul#menu li a:hover {
     background-color:#265C8C;
 }
 
+.featured a:link, .featured a:visited,
+.featured a:active, .featured a:hover {
+    color: #000;
+    outline: none;
+    padding-left: .25em;
+    padding-right: .25em;
+    text-decoration: underline;
+}
+
         .featured hgroup.title h1, .featured hgroup.title h2 {
             color: #f2f2f2;
         }
@@ -1751,6 +1816,8 @@ ul#menu li a:hover {
 {
     color:#000000;
 }
+
+
     .featured .content-wrapper {
         background-color: #f2f2f2;
         background-image: -ms-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
