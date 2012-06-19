@@ -184,6 +184,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
+    <Content Include="Images\info-red-32.png" />
     <Content Include="Images\info-red-64.png" />
     <Content Include="Images\location-16.png" />
     <Content Include="Images\location-32.png" />
