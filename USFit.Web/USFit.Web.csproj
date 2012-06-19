@@ -126,6 +126,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LegalController.cs" />
+    <Compile Include="Controllers\PurchaseController.cs" />
     <Compile Include="Controllers\SpecialEventsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -264,6 +265,8 @@
     <Content Include="Views\Home\Seniors.cshtml" />
     <Content Include="Views\Home\Special-Events.cshtml" />
     <Content Include="Views\SpecialEvents\Urban-Survivalist-Obstacle-Course.cshtml" />
+    <Content Include="Views\Purchase\Cancel.cshtml" />
+    <Content Include="Views\Purchase\Success.cshtml" />
     <None Include="_bin_deployableAssemblies\System.Web.Optimization.dll" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />

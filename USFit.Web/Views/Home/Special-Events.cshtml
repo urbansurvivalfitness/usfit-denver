@@ -8,47 +8,101 @@
             <h2>Urban Survivor Obstacle Course</h2>
             <p>Come face the ultimate challenge - alone or form a team - at the First Annual Urban
                 Survivor Obstacle Course.</p>
-            <div class="grid_6">
-                <ul>
-                    <li>When: Saturday, August 18, 2012</li>
-                    <li>Where: 3540 East 31st Avenue, Denver, CO 80205</li>
-                    <li>Why: To help fund programs to combat childhood obesity</li>
-                </ul>
-            </div>
-            <div class="grid_2">
-                <h3>Cost</h3>
-                <ul>
-                    <li>Before July 18</li>
-                    <li>Before August 18</li>
-                    <li>At the door</li>
-                </ul>
-            </div>
-            <div class="grid_2">
-                <h3>Individuals</h3>
-                <ul>
-                    <li>$30</li>
-                    <li>$35</li>
-                    <li>$40</li>
-                </ul>
-            </div>
-            <div class="grid_2">
-                <h3>Teams</h3>
-                <ul>
-                    <li>$25 ea.</li>
-                    <li>$35 ea.</li>
-                    <li>$40 ea.</li>
-                </ul><i>limit 4 per team</i>
-            </div>
-                
-            
+            <section id="oc-detail">
+                <div class="grid_6">
+                    <h3>Details</h3>
+                    <ul>
+                        <li>When: <strong>Saturday, August 18, 2012</strong></li>
+                        <li>Where: 3540 East 31st Avenue, Denver, CO 80205</li>
+                        <li>Why: To help fund programs to <strong>combat childhood obesity</strong></li>
+                    </ul>
+                </div>
+            </section>
             <div class="clearfix">
             </div>
-            
-
-            <div id="obstacle-course-more-info" class="float-left">
-                        <img class="more-info" src="@Url.Content("../Images/info-red-32.png")" /><a class="more-info" href="~/SpecialEvents/Urban-Survivalist-Obstacle-Course">Get More Info!!!</a>
+            <section id="pricing">
+                <div class="grid_2">
+                    <h3>Cost</h3>
+                    <ul>
+                        <li>Before July 18</li>
+                        <li>Before August 18</li>
+                        <li>At the door</li>
+                    </ul>
+                </div>
+                <div class="grid_2">
+                    <h3>Individuals</h3>
+                    <ul>
+                        <li>$30</li>
+                        <li>$35</li>
+                        <li>$40</li>
+                    </ul>
+                </div>
+                <div class="grid_2">
+                    <h3>Teams</h3>
+                    <ul>
+                        <li>$25 ea.</li>
+                        <li>$35 ea.</li>
+                        <li>$40 ea.</li>
+                    </ul><i>limit 4 per team</i>
+                </div>
+            </section>
+            <div class="clearfix">
             </div>
-            
+            <section id="buy-now">
+                <div class="grid_4">
+                    <h2>Buy Individual Tickets</h2>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="SK926V6JH776U">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+                        border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                        width="1" height="1">
+                    </form>
+                </div>
+                <div class="grid_4">
+                    <h2>Buy Team Tickets</h2>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="MXW84TLXM4M7E">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="on0" value="How Big is Your Team?">How Big is Your Team?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="os0">
+                                    <option value="2 - Survivors">2 - Survivors $50.00 USD</option>
+                                    <option value="3 - Survivors">3 - Survivors $75.00 USD</option>
+                                    <option value="4 - Survivors">4 - Survivors $100.00 USD</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+                        border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                        width="1" height="1">
+                    </form>
+                </div>
+            </section>
+            <div class="clearfix">
+            </div>
+            <p style="font-size: .95em;">By clicking one of the "Buy Now" buttons you will be taken
+                to PayPal so that you can make a secure online payment using their tools. Once your
+                secure transaction is complete, you will be re-directed back to the Urban Survival
+                Fitness web site.</p>
+            <div class="clearfix">
+            </div>
+            <div id="obstacle-course-more-info" class="float-left">
+                <img class="more-info" src="@Url.Content("../Images/info-red-32.png")" /><a class="more-info"
+                    href="~/SpecialEvents/Urban-Survivalist-Obstacle-Course">Get More Info!!!</a>
+            </div>
+            <div class="clearfix">
+            </div>
         </div>
     </section>
 }
