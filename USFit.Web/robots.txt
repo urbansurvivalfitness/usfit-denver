@@ -40,4 +40,4 @@ Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
 
-Sitemap: http://usfit-denver.apphb.com/sitemap.xml
+Sitemap: http:/www.urbansurvivalfitness.com/sitemap.xml
