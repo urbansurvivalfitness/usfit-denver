@@ -1,43 +1,50 @@
 User-agent: *
+Allow: /
 Disallow: /content/
 Disallow: /views/
-Allow: /
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: bingbot
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: Slurp
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: Googlebot
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: MSNBot
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: Googlebot-Image
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 User-agent: Googlebot-Mobile
 Allow: /
 Disallow: /content/
 Disallow: /views/
 Disallow: /scripts/
+Disallow: /images/
 
 Sitemap: http:/www.urbansurvivalfitness.com/sitemap.xml
