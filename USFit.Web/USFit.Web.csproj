@@ -268,6 +268,7 @@
     <Content Include="Views\SpecialEvents\Urban-Survivalist-Obstacle-Course.cshtml" />
     <Content Include="Views\Purchase\Cancel.cshtml" />
     <Content Include="Views\Purchase\Success.cshtml" />
+    <None Include="Content\pdf\UrbanSurvivorObstacleCourse.pdf" />
     <None Include="_bin_deployableAssemblies\System.Web.Optimization.dll" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />
