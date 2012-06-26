@@ -190,6 +190,7 @@
     <Content Include="Images\location-32.png" />
     <Content Include="Images\location-red-16.png" />
     <Content Include="Images\location-red-32.png" />
+    <Content Include="Images\logo-main.png" />
     <Content Include="Images\phone-16.png" />
     <Content Include="Images\phone-32.png" />
     <Content Include="Images\phone-red-16.png" />

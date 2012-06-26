@@ -832,7 +832,11 @@ div#map
    
 /* page titles */
 hgroup.title {
-    margin-bottom: 10px;
+    background: url("../images/logo-main.png") no-repeat 0 0;
+    height:65px;
+    width:500px;
+    margin-top:1em;
+    margin-bottom: 1em;
 }
 
 hgroup.title h1, hgroup.title h2 {
