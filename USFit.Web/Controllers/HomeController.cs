@@ -32,8 +32,8 @@ namespace USFit.Web.Controllers
             return View();
         }
 
-        [ActionName("Fitness-Enthusiast")]
-        public ActionResult FitnessEnthusiast()
+        [ActionName("Workout-Classes")]
+        public ActionResult WorkoutClasses()
         {
             return View();
         }

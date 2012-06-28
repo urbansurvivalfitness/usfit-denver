@@ -113,14 +113,14 @@ $(document).ready(function () {
     $getDirectionsButton = $("#getDirectionsButton")
     ;
 
-//    if ($getDirectionsButton != "undefined" && $getDirectionsButton != null) {
-//        locationModule.InitializeMap();
-//    }
+    //    if ($getDirectionsButton != "undefined" && $getDirectionsButton != null) {
+    //        locationModule.InitializeMap();
+    //    }
 
-//    $getDirectionsButton.click(function () {
-//        alert("clicked");
-//        locationModule.calcRoute();
-//    });
+    //    $getDirectionsButton.click(function () {
+    //        alert("clicked");
+    //        locationModule.calcRoute();
+    //    });
 
     $buttons.each(function () {
         $(this).mouseover(function () {
@@ -148,7 +148,11 @@ $(document).ready(function () {
                     $(this).removeClass("onscreen");
                 }
             });
-            $("." + targetId).addClass("onscreen").removeClass("offscreen");
+
+            if (targetId) {
+                $("." + targetId).addClass("onscreen").removeClass("offscreen");
+            }
+            
 
 
         });

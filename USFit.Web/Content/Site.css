@@ -1286,6 +1286,123 @@ img.more-info
     margin-right:.5em;
 }
 
+
+/* Pricing Page Styles */
+#pricing-container
+{
+    margin-top:2em;
+    height:14em;
+}
+.price-column, .price-column-left, .price-column-right
+{
+    float:left;
+    width:8em;
+    border: 1px solid #444;
+}
+
+
+div.cell
+{
+    display:block;
+    text-align:center;
+}
+
+div.cell-header
+{
+    height:4em;
+    font-size:1.3em;
+    font-weight:500;
+}
+
+.best-value div.cell-header
+{
+    font-size:1.5em;
+    font-weight:bold;
+    padding-top:.5em;
+    height:3.75em;
+}
+
+div.cell-footer
+{
+    height:1em;
+}
+
+div.cell-header, div.cell-footer
+{
+    color:#ffffff;
+    background-color:#a1a1a1;
+}
+
+div.header-left
+{
+    border-top-left-radius:8px;
+}
+div.header-right
+{
+    border-top-right-radius:8px;
+}
+div.footer-right
+{
+    border-bottom-right-radius:8px;
+}
+div.footer-left
+{
+    border-bottom-left-radius:8px;
+}
+
+div.price-cell
+{
+    height:7em;
+}
+
+.price-column-left
+{
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;
+}
+
+.price-column-right
+{
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+}
+
+.coupon
+{
+    margin-top:2em;
+    text-align:center;
+}
+.best-value
+{
+    margin-top:-1em;
+    width:12em;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;
+}
+
+div.best-value .cell-header, div.best-value .cell-footer
+{
+    background-color:#ff5d01;
+}
+span.best-value, span.popular
+{
+    font-size:.75em;
+}
+.bestvalue-price-cell
+{
+    font-size:1.5em;
+    font-weight:bold;
+    height:5em;
+}
+
+.bestvalue-price-cell span
+{
+    position:relative;
+    top:1.25em;
+}
+
 /********************
 *   Mobile Styles   *
 ********************/

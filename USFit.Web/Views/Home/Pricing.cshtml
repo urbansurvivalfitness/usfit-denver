@@ -1,58 +1,65 @@
 ﻿@{
-    ViewBag.Title = "Competitive Group Fitness Pricing";
+    ViewBag.Title = "Workout Class | Fitness Class Pricing";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section featured{
     <section class="featured">
         <div class="featured-content content-wrapper container_12">
             <div class="grid_12">
-                <h1>Urban Survival Fitness has the most Competitive Pricing in Town!</h1>
-                <p>At Urban Survival Fitness, you are guaranteed to never have another boring workout.
-                    We provide personal training in every class. You will find that our rates are very
-                    competitive compared to the other gyms around town. Come and check us out.</p>
-                <h2>Fitness Enthusiasts</h2>
+                <h1>
+                    Urban Survival Fitness has the most Competitive Pricing in Town!</h1>
+                <p>
+                    Our fitness classes guarantee that you will never have another boring workout. We
+                    provide personal training in every wourkout class. Our rates are very competitive
+                    compared to the other gyms and workout programs around town. Come and check us out.</p>
+                <br />
+                @Html.Partial("PriceGrid")
                 <ul>
-                    <li>Drop-In - $$$</li>
-                    <li>Monthly - $$$</li>
-                    <li>Annual - $$$</li>
-                </ul>
-                <h2>Youth Athletics</h2>
-                <ul>
-                    <li>Sport Specific Programs & Individual Training Available</li>
-                    <li>Call for details...</li>
-                </ul>
-                <h2>Womens Fitness</h2>
-                <ul>
-                    <li>Womens Self Defense & Stay at Home Moms</li>
-                    <li>Call for details...</li>
-                </ul>
-                <h2>Seniors</h2>
-                <ul>
-                    <li>Call for details...</li>
+                    <li>Memberships Include Unlimited Visits - to Standard Workout Classes</li>
+                    <li>Pricing subject to change</li>                    
+                    <li>We accept Cash, Credit, PayPal, and Checks</li>
+                    <li>Military & Teachers receive 20% discount on memberships - (Valid ID Required)</li>
+                    <li>All memberships must be paid in advance</li>
+                    <li>Still Have Questions?  Call Us - <strong>@USFit.Web.Constants.PrimaryPhone</strong></li>
                 </ul>
             </div>
-            <div class="clearfix">
-            </div>
-            <p><strong>All pricing is subject to change</strong></p>
-            <p><strong>Please contact us with any questions regarding pricing</strong></p>
         </div>
     </section>
 }
-<div class="grid_12">
-    <h2>Other Information</h2>
-    <h4>One on One Personal Training</h4><ul>
-        <li>Personal Training & Wellness Plans Available</li>
-        <li>Call for details...</li>
-    </ul><h4>Special Rates</h4><ul>
-        <li>We offer special rates for Students, Teachers, Seniors, FF, LEO, Military, and Church
-            Organizations</li>
-        <li>Valid ID is Required for Special Rates</li>
-        <li>Call for Details</li>
-    </ul>
+<div class="container_12">
+    <div class="grid_4">
+        <h3>
+            One on One Personal Training</h3>
+        <ul>
+            <li>$40 / Hour</li>
+            <li>Monthly Rates Available</li>
+            <li>Advanced Scheduling is Required</li>
+            <li>Call for Details...</li>
+        </ul>
+    </div>
+
+    <div class="grid_4">
+        <h3>
+            Self Defense Classes</h3>
+        <ul>
+            <li>3 hour - Group Classes - $75 / Person</li>
+            <li>Group Rates are Available</li>
+            <li>Call for Details...</li>
+        </ul>
+    </div>
+
+    <div class="grid_4">
+        <h3>
+            Kids Classes</h3>
+        <ul>
+            <li>Free - for ages 7-16</li>
+            <li>Classes Starting Soon...</li>
+            <li>Limited Space Available...</li>
+            <li>Call for Details...</li>
+        </ul>
+    </div>
 </div>
-
-
 @section meta{
-    <meta name="description" content="Urban Survival Fitness has the most competitive pricing for group fitness classes in the Denver, Park Hill, Stapleton, and City Park area.  
+    <meta name="description" content="Urban Survival Fitness has the most competitive pricing for workout classes and fitness classes in the Denver, Park Hill, Stapleton, and City Park area.  
     Can you survive one of the greatest workouts in town?" />
 }
