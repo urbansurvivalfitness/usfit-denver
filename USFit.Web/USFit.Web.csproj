@@ -262,8 +262,8 @@
     <Content Include="Views\Home\Our-Location.cshtml" />
     <Content Include="Views\Home\Our-Facility.cshtml" />
     <Content Include="Views\Home\Workout-Classes.cshtml" />
-    <Content Include="Views\Home\Youth-Athletics.cshtml" />
-    <Content Include="Views\Home\Womens-Fitness.cshtml" />
+    <Content Include="Views\Home\youth-programs.cshtml" />
+    <Content Include="Views\Home\self-defense.cshtml" />
     <Content Include="Views\Home\Seniors.cshtml" />
     <Content Include="Views\Home\Special-Events.cshtml" />
     <Content Include="Views\SpecialEvents\Urban-Survivalist-Obstacle-Course.cshtml" />
@@ -271,6 +271,7 @@
     <Content Include="Views\Purchase\Success.cshtml" />
     <Content Include="Content\pdf\UrbanSurvivorObstacleCourse.pdf" />
     <Content Include="Views\Home\PriceGrid.cshtml" />
+    <Content Include="Views\Home\free-coupon.cshtml" />
     <None Include="_bin_deployableAssemblies\System.Web.Optimization.dll" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />

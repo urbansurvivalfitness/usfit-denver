@@ -26,15 +26,11 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Special-Events</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/special-events</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/SpecialEvents/Urban-Survivalist-Obstacle-Course</loc>
-		<changefreq>weekly</changefreq>
-	</url>	
-	<url>
-		<loc>http://www.urbansurvivalfitness.com/home/Class-Schedules</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/class-schedules</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -50,27 +46,27 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/home/youth-athletics</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/youth-programs</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Womens-Fitness</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/self-defense</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Seniors</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/seniors</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Our-Staff</loc>
+		<loc>http://www.urbansurvivalfitness.com/Home/our-staff</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Our-Facility</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/our-facility</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/Home/Our-Location</loc>
+		<loc>http://www.urbansurvivalfitness.com/home/our-location</loc>
 		<changefreq>weekly</changefreq>
 	</url>	
 	<url>
@@ -84,6 +80,4 @@
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/legal/legal-information</loc>
 	</url>
-
-
 </urlset>

@@ -8,6 +8,12 @@ namespace USFit.Web.Controllers
 {
     public class HomeController : Controller
     {
+        [ActionName("free-coupon")]
+        public ActionResult FreeCoupon()
+        {
+            return View();
+        }
+
         [ActionName("Special-Events")]
         public ActionResult SpecialEvents()
         {
@@ -20,14 +26,14 @@ namespace USFit.Web.Controllers
             return View();
         }
 
-        [ActionName("Womens-Fitness")]
-        public ActionResult WomensFitness()
+        [ActionName("self-defense")]
+        public ActionResult SelfDefense()
         {
             return View();
         }
 
-        [ActionName("Youth-Athletics")]
-        public ActionResult YouthAthletics()
+        [ActionName("youth-programs")]
+        public ActionResult YouthPrograms()
         {
             return View();
         }
