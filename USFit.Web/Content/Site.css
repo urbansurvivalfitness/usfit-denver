@@ -1187,6 +1187,7 @@ div.buy-now
     border-top-left-radius:8px;
 }
 
+    
 div.buy-now input
 {
     margin-top:1em;
@@ -1372,6 +1373,32 @@ div.price-cell
     margin-top:2em;
     text-align:center;
 }
+
+.coupon-container
+{
+    border-width:3px;
+    border-style: dashed;
+    border-color: #686868;
+    border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    padding:2em;
+}
+
+.coupon-container h2
+{
+    margin-top:.25em;
+    margin-bottom:1em;
+}
+
+.coupon-container ul
+{
+    padding:0;
+    margin:0;
+    margin-top:1em;
+}
+    
 .best-value
 {
     margin-top:-1em;
@@ -2075,7 +2102,12 @@ footer {
   thead { display: table-header-group; } /* h5bp.com/t */
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
+  @page { margin: 0.25cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+  
+  .coupon-container
+  {
+      width:100%;
+  }
 }
