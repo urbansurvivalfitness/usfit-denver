@@ -468,6 +468,8 @@ Button styles
 	.yellow.button, .yellow.button:visited		{ background-color: #ffb515; }
 	.yellow.button:hover						{ background-color: #fc9200; }
 
+    .grey.button {background-color: #474747}
+    .grey.button:hover {background-color: #6b6b6b}
 
 
 
@@ -1430,6 +1432,47 @@ span.best-value, span.popular
     top:1.25em;
 }
 
+
+
+.vertical-nav-grid ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-image:none;
+}
+.vertical-nav-grid ul li
+{
+    list-style:none;
+}
+
+/*
+styles for seniors.....
+*/
+
+section.seniors
+{
+    margin-top:3em;
+}
+
+section.seniors-header h1
+{
+    color:#999;
+}
+section.seniors h2
+{
+    margin-bottom:.25em;
+    color:#999;
+}
+
+section.seniors .image-placeholder
+{
+    width: 350px; 
+    height: 250px; 
+    border: 1px solid #474747
+}
+
+
+
 /********************
 *   Mobile Styles   *
 ********************/
@@ -2008,20 +2051,29 @@ ul#menu li a:hover {
     background-color:#265C8C;
 }
 
+a.more-info
+{
+    color:#000;
+}
+
 .featured a:link, .featured a:visited,
 .featured a:active, .featured a:hover {
-    color: #000;
+    /*color: #000;*/
     outline: none;
     padding-left: .25em;
     padding-right: .25em;
     text-decoration: underline;
 }
 
+.vertical-nav-grid > .nav-button a:link, .nav-button a:visited,
+.nav-button a:active, .nav-button a:hover {
+    color: #f2f2f2;
+}
+
 .primary-nav-button a:link, .primary-nav-button a:visited,
 .primary-nav-button a:active, .primary-nav-button a:hover {
     color: #f2f2f2;
 }
-
         .featured hgroup.title h1, .featured hgroup.title h2 {
             color: #f2f2f2;
         }
