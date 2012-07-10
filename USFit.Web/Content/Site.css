@@ -1469,7 +1469,12 @@ section.seniors .image-placeholder
 {
     width: 350px; 
     height: 250px; 
-    border: 1px solid #474747
+    border: 1px solid #f2f2f2;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;
+    background-color:#fff;
 }
 
 section.seniors img
