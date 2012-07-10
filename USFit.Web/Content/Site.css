@@ -1443,6 +1443,7 @@ span.best-value, span.popular
 .vertical-nav-grid ul li
 {
     list-style:none;
+    margin-top:.75em;
 }
 
 /*
@@ -2080,6 +2081,7 @@ a.more-info
 .vertical-nav-grid > .nav-button a:link, .nav-button a:visited,
 .nav-button a:active, .nav-button a:hover {
     color: #f2f2f2;
+    margin-top:1em;
 }
 
 .primary-nav-button a:link, .primary-nav-button a:visited,

@@ -53,8 +53,8 @@
                     </div>
                     <div class="grid_6">
                         <h2>Turn the Key - Unlock Healthy Aging</h2>
-                        <p>Exercise is the key to unlock healthy aging. Our workout
-                            classes will boost energy, maintain your independence, and keep you fit. </p>
+                        <p>Exercise is the key to unlock healthy aging. Our workout classes will boost energy,
+                            maintain your independence, and keep you fit. </p>
                     </div>
                 </section>
                 <div class="clearfix">
@@ -69,6 +69,48 @@
                     <div class="grid_6">
                         <div>
                             <img src="@Url.Content("~/images/seniors/staysharp.jpg")" />
+                        </div>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="seniors">
+                    <div class="grid_6">
+                        <div>
+                            @if (Request.QueryString["v"] == "2") {
+                                <img src="@Url.Content("~/images/seniors/SmartHeart2.jpg")" />
+                            }
+                            else {
+                                <img src="@Url.Content("~/images/seniors/SmartHeart3.jpg")" />
+                            }
+                        </div>
+                    </div>
+                    <div class="grid_6">
+                        <h2>Smart for the Heart</h2>
+                        <p>Reinforce your Cardiovascular System - Increase Stamina & Energy. A strong cardiovascular
+                            system helps maintain good blood pressure and cholesterol levels. Our workout program
+                            will improve your cardiovascular system.</p>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="seniors">
+                    <div class="grid_6">
+                        <h2>Get Stronger & Live Longer</h2>
+                        <p>Our workouts Strengthen your Muscles & Increase Bone Density - making Walking, Lifting,
+                            and Balance easier. Reduce risk of osteoporosis & fractures with increased bone
+                            density. Stronger Muscles & Increased Bone Density = A Longer - Happier - Injury
+                            Free Life.</p>
+                    </div>
+                    <div class="grid_6">
+                        <div>
+                            
+                            @if (Request.QueryString["v"] == "2") {
+                                <img src="@Url.Content("~/images/seniors/GetStrongLiveLong2.jpg")" />
+                            }
+                            else {
+                                <img src="@Url.Content("~/images/seniors/GetStrongLiveLong.jpg")" />
+                            }
                         </div>
                     </div>
                 </section>
