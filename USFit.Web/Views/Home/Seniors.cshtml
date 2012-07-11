@@ -9,22 +9,30 @@
                 <div style="width: 100%; height: 100%;">
                     <ul>
                         <li>
-                            <a class="small orange button nav-button" href="/home/workout-classes">Workout Classes</a></li>
+                            <a class="medium orange button nav-button" href="/home/workout-classes">Workout Classes</a></li>
                         <li>
-                            <a class="small orange button nav-button" href="/home/youth-programs">Your Programs</a></li>
+                            <a class="medium orange button nav-button" href="/home/youth-programs">Youth Programs</a></li>
                         <li>
-                            <a class="small orange button nav-button" href="/home/self-defense">Self Defense</a></li>
+                            <a class="medium orange button nav-button" href="/home/self-defense">Self Defense Classes</a></li>
                         <li>
-                            <a class="small grey button nav-button" href="/home/seniors">Seniors</a></li>
+                            <a class="medium grey button nav-button" href="/home/seniors">Seniors Classes</a></li>
                     </ul>
                 </div>
             </div>
             <div class="grid_10">
                 <section class="seniors-header">
-                    <div class="grid_12">
-                        <h1>Start Rolling Back the Years - Join Our Fitness Classes</h1>
-                        <p>Science has proven that active people live longer, feel stronger, and look younger.
-                            Start today by joining one of our senior workout classes.</p>
+                    <div class="grid_8">
+                        <h1>Start Rolling Back the Years - Join Our <span style="text-decoration: underline;font-weight:bold;color:#000">
+                            Seniors Only</span> Fitness Classes</h1>
+                        <p>Science has proven that active people live longer, feel stronger, and look younger.  Start today by joining one of our senior workout classes.
+                          Concerned about holding back the class?  Don't Worry!  Our trainers scale each exercise up or down to maximize your workout.  Need more
+                            of a challenge? - You are always welcome to participate in our standard workout classes.</p>
+                    </div>
+                    <div class="coupon grid_4 primary-nav-button">
+                        <a id="coupon-button" href="/home/free-coupon?src=seniors-classes" title="Print a coupon for our fitness classes & workout classes"
+                            class="super button orange">Free Drop-In Pass
+                            <br />
+                            (Print It!)</a>
                     </div>
                 </section>
                 <div class="clearfix">
@@ -35,7 +43,7 @@
                         <p>It's never too late to get fit. Our exercise classes are guaranteed to help you maintain
                             and grow cardiovascular health, strength, and flexibility. Newcomers - Seasoned
                             Athletes - People of all Skill Levels - come and enjoy the benefits of working out
-                            in a group setting.</p>
+                            with other seniors in a group setting. Ability Based Exercise - For Seniors Only.</p>
                     </div>
                     <div class="grid_6">
                         <div>
@@ -77,12 +85,7 @@
                 <section class="seniors">
                     <div class="grid_6">
                         <div>
-                            @if (Request.QueryString["v"] == "2") {
-                                <img src="@Url.Content("~/images/seniors/SmartHeart2.jpg")" />
-                            }
-                            else {
-                                <img src="@Url.Content("~/images/seniors/SmartHeart3.jpg")" />
-                            }
+                            <img src="@Url.Content("~/images/seniors/SmartHeart.jpg")" />
                         </div>
                     </div>
                     <div class="grid_6">
@@ -104,13 +107,7 @@
                     </div>
                     <div class="grid_6">
                         <div>
-                            
-                            @if (Request.QueryString["v"] == "2") {
-                                <img src="@Url.Content("~/images/seniors/GetStrongLiveLong2.jpg")" />
-                            }
-                            else {
-                                <img src="@Url.Content("~/images/seniors/GetStrongLiveLong.jpg")" />
-                            }
+                            <img src="@Url.Content("~/images/seniors/GetStrongLiveLong.jpg")" />
                         </div>
                     </div>
                 </section>
@@ -121,17 +118,20 @@
                         <h2>Schedule</h2>
                         <p>Limited Space Available...</p>
                         <p>Classes forming now...</p>
-                        <h4><strong>Call for Details @USFit.Web.Constants.PrimaryPhone</strong></h4>
                     </div>
                     <div class="grid_6">
                         <h2>Pricing</h2>
                         <p>Seniors Get Special Rates...</p>
                         <p>Group Rates Available...</p>
-                        <h4><strong>Call for Details @USFit.Web.Constants.PrimaryPhone</strong></h4>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
+                <section class="seniors">
+                    <div class="grid_12">
+                        <h2><strong class="callout">Call Us & Reserve Your Spot Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2>
+                    </div>
+                </section>
             </div>
             <div class="clearfix">
             </div>

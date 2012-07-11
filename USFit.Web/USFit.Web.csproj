@@ -198,10 +198,7 @@
     <Content Include="Images\phone-red-32.png" />
     <Content Include="Images\seniors\getfit.jpg" />
     <Content Include="Images\seniors\GetStrongLiveLong.jpg" />
-    <Content Include="Images\seniors\GetStrongLiveLong2.jpg" />
     <Content Include="Images\seniors\SmartHeart.jpg" />
-    <Content Include="Images\seniors\SmartHeart2.jpg" />
-    <Content Include="Images\seniors\SmartHeart3.jpg" />
     <Content Include="Images\seniors\staysharp.jpg" />
     <Content Include="Images\seniors\turnkey.jpg" />
     <Content Include="Images\shiny_calendar_32px.png" />

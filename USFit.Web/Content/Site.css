@@ -1372,7 +1372,6 @@ div.price-cell
 
 .coupon
 {
-    margin-top:2em;
     text-align:center;
 }
 
@@ -1489,7 +1488,11 @@ section.seniors img
 }
 
 
-
+.callout
+{
+    font-size:1.25em;
+    color:#fb0238;
+}
 
 /********************
 *   Mobile Styles   *
