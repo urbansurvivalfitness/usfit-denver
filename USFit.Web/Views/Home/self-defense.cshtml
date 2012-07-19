@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Self Defense Workout Classes";
+    ViewBag.Title = "(S.A.F.E.) - Self Defense Awareness Fundamentals for Everyone - Group Self Defense Classes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section featured{
@@ -8,21 +8,22 @@
             <div class="grid_2 vertical-nav-grid">
                 <div style="width: 100%; height: 100%;">
                     <ul>
-                        <li><a class="medium orange button nav-button" href="/home/workout-classes">Workout
-                            Classes</a></li>
-                        <li><a class="medium orange button nav-button" href="/home/youth-programs">Youth Programs</a></li>
-                        <li><a class="medium grey button nav-button" href="/home/self-defense">Self Defense</a></li>
-                        <li><a class="medium orange button nav-button" href="/home/seniors">Seniors Classes</a></li>
+                        <li>
+                            <a class="medium orange button nav-button" href="/home/workout-classes">Workout Classes</a></li>
+                        <li>
+                            <a class="medium orange button nav-button" href="/home/youth-programs">Youth Programs</a></li>
+                        <li>
+                            <a class="medium grey button nav-button" href="/home/self-defense">Self Defense</a></li>
+                        <li>
+                            <a class="medium orange button nav-button" href="/home/seniors">Seniors Classes</a></li>
                     </ul>
                 </div>
             </div>
             <div class="grid_10">
-                <section class="seniors-header">
+                <section class="content-section-header">
                     <div class="grid_8">
-                        <h1>
-                            Self Defense Awareness Fundamentals for Everyone (S.A.F.E.)</h1>
-                        S.A.F.E. is an advance yet simple system designed for:
-                        <ul>
+                        <h1>Self Defense Awareness Fundamentals for Everyone (S.A.F.E.)</h1>
+                        S.A.F.E. is an advance yet simple system designed for: <ul>
                             <li>Crime Prevention</li>
                             <li>Personal Safety</li>
                             <li>Self Defense</li>
@@ -38,64 +39,73 @@
                 </section>
                 <div class="clearfix">
                 </div>
-                <div class="grid_12">
-                    <h2>
-                        <strong class="callout">It' your Life - Take Control Of It!</strong></h2>
-                </div>
-                <div class="clearfix">
-                </div>
-                <section class="seniors">
+                <section class="content-section">
                     <div class="grid_6">
-                        <div class="image-placeholder">
-                        </div>
+                        <h2><strong class="callout">It' your Life - Take Control Of It!</strong></h2>
+                        <p>Take control of your life today - Enroll in one of our self defense classes - Call
+                            Us to Reserve Your Spot!</p>
+                            <p style="margin-top: 1em;">Classes can be held at our Spacious Facility - Your Facility - In the Park - or at a Reasonable Location of Your Choice</p>
                     </div>
                     <div class="grid_6">
-                        <h2>
-                            Why Should I Take this Class?</h2>
-                        <p>
-                            Statistics show that the greater number of defensive methods employed during an
-                            attack, the higher the chance of escape.
-                        </p>
-                        <p style="margin-top: 1em;">Get the skills you need
-                            to handle various self-defense situations.</p>
-                        <p style="margin-top: 1em;">
-                            The more Prepared You are to Defend Yourself - The Less Likely it is that You will
-                            ever have to.</p>
-                    </div>
-                </section>
-                <div class="clearfix">
-                </div>
-                <section class="seniors">
-                    <div class="grid_6">
-                        <h2>
-                            Can I Do This? - Absolutely!</h2>
-                        <p>
-                            We create an environment where you feel comfortable enough to challenge yourself
-                            and discover your strength. Learn to use your entire body, regardless of your
-                            strength, size, body type, or level of fitness. </p>
-                            <p style="margin-top: 1em;">Students of up to 81 years of age
-                            have completed this course.</p>
-                        <p style="margin-top: 1em;">
-                            <u>Determination</u> and the <u>Desire</u> to take control of your life is all that
-                            is required.</p>
-                    </div>
-                    <div class="grid_6">
-                        <div class="image-placeholder">
+                        <div>
+                            <img src="@Url.Content("~/images/self-defense/photo3.jpg")" 
+                            title="woman practicing hand to hand self defense tactics with her self defense instructor in a gym in Park Hill, Colorado" 
+                            alt="woman practicing hand to hand self defense tactics with her self defense instructor in a gym in Park Hill, Colorado" />
                         </div>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
-                <section class="seniors">
+                <section class="content-section">
                     <div class="grid_6">
-                        <div class="image-placeholder">
+                        <div>
+                            <img src="@Url.Content("~/images/self-defense/photo5.jpg")" 
+                            title="A woman wondering if she has the self defense skills to defend herself in Park Hill, Colorado" 
+                            alt="A woman wondering if she has the self defense skills to defend herself in Park Hill, Colorado" />
                         </div>
                     </div>
                     <div class="grid_6">
-                        <h2>
-                            Get the Fufillment & Freedom You Deserve</h2>
-                        <p>
-                            How much more fulfilling would your life be, and how much more freedom would you
+                        <h2>Why Should I Take this Class?</h2>
+                        <p>Statistics show that the greater number of defensive methods employed during an attack,
+                            the higher the chance of escape. </p>
+                        <p style="margin-top: 1em;">Get the skills you need to handle various self-defense situations.</p>
+                        <p style="margin-top: 1em;">The more Prepared You are to Defend Yourself - The Less
+                            Likely it is that You will ever have to.</p>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_6">
+                        <h2>Can I Do This? - Absolutely!</h2>
+                        <p>We create an environment where you feel comfortable enough to challenge yourself
+                            and discover your strength. Learn to use your entire body, regardless of your strength,
+                            size, body type, or level of fitness. </p>
+                        <p style="margin-top: 1em;">Students of up to 81 years of age have completed this course.</p>
+                        <p style="margin-top: 1em;"><u>Determination</u> and the <u>Desire</u> to take control
+                            of your life is all that is required.</p>
+                    </div>
+                    <div class="grid_6">
+                        <div>
+                            <img src="@Url.Content("~/images/self-defense/photo1.jpg")" 
+                            title="woman practicing hand to hand self defense tactics with her self defense instructor in a gym in Park Hill, Colorado" 
+                            alt="woman practicing hand to hand self defense tactics with her self defense instructor in a gym in Park Hill, Colorado" />
+                        </div>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_6">
+                        <div>
+                            <img src="@Url.Content("~/images/self-defense/photo2.jpg")" 
+                            title="A woman practicing hand to hand self defense tactics against a self defense instructor with a knife in a gym in Park Hill, Colorado" 
+                            alt="A woman practicing hand to hand self defense tactics against a self defense instructor with a knife in a gym in Park Hill, Colorado" />
+                        </div>
+                    </div>
+                    <div class="grid_6">
+                        <h2>Get the Fulfillment & Freedom You Deserve</h2>
+                        <p>How much more fulfilling would your life be, and how much more freedom would you
                             experience if you knew how to recognize and respond to a potentially dangerous situation?
                             Using a Hands-On & Lecture Combo - Students Practice the Self-Defense Techniques
                             Required - To Focus on the Physical, Emotional & Psychological aspects of an attack.
@@ -104,45 +114,39 @@
                 </section>
                 <div class="clearfix">
                 </div>
-                <section class="seniors">
+                <section class="content-section">
                     <div class="grid_6">
-                        <h2>
-                            Turn Fear into Effective - Self-Defense Energy</h2>
-                        <p>Address Lack of Confidence - Helplessness & Anger.  
-                        Gain new Awareness of your Physical Potential - Emotional Strength & Confidence.</p>
+                        <h2>Turn Fear into Effective - Self-Defense Energy</h2>
+                        <p>Address Lack of Confidence - Helplessness & Anger. Gain new Awareness of your Physical
+                            Potential - Emotional Strength & Confidence.</p>
                     </div>
                     <div class="grid_6">
-                        <div class="image-placeholder" style="">
+                        <div>
+                            <img src="@Url.Content("~/images/self-defense/photo4.jpg")" 
+                            title="A scared woman attempting to fend of an attacker in Park Hill, Colorado" 
+                            alt="A scared woman attempting to fend of an attacker in Park Hill, Colorado" />
                         </div>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
-                
-                <section class="seniors">
+                <section class="content-section">
                     <div class="grid_6">
-                        <h2>
-                            Schedule</h2>
-                        <p>
-                            Limited Space Available...</p>
-                        <p>
-                            Classes forming now...</p>
+                        <h2>Schedule</h2>
+                        <p>Limited Space Available...</p>
+                        <p>Classes forming now...</p>
                     </div>
                     <div class="grid_6">
-                        <h2>
-                            Pricing</h2>
-                        <p>
-                            3 hour - Group Classes - $75 / Person</p>
-                        <p>
-                            Group Rates Available...</p>
+                        <h2>Pricing</h2>
+                        <p>3 hour - Group Classes - $75 / Person</p>
+                        <p>Group Rates Available...</p>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
-                <section class="seniors">
+                <section class="content-section">
                     <div class="grid_12">
-                        <h2>
-                            <strong class="callout">Call Us & Reserve Your Spot Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2>
+                        <h2><strong class="callout">Call Us & Reserve Your Spot Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2>
                     </div>
                 </section>
             </div>
@@ -152,6 +156,6 @@
     </section>
 }
 @section meta{
-    <meta name="description" content="We offer self defense workout and fitness classes to people of all ages in the 
-        Denver, Stapleton, City Park and Park Hill area." />
+    <meta name="description" content="Read More - Learn About Our Self Defense Awareness Fundamentals for Everyone (S.A.F.E.).  These are Self Defense Classes offered to people of all ages
+        and skill levels in the Denver, Stapleton, City Park and Park Hill area." />
 }

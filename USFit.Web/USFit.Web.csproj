@@ -196,6 +196,11 @@
     <Content Include="Images\phone-32.png" />
     <Content Include="Images\phone-red-16.png" />
     <Content Include="Images\phone-red-32.png" />
+    <Content Include="Images\self-defense\photo1.jpg" />
+    <Content Include="Images\self-defense\photo2.jpg" />
+    <Content Include="Images\self-defense\photo3.jpg" />
+    <Content Include="Images\self-defense\photo4.jpg" />
+    <Content Include="Images\self-defense\photo5.jpg" />
     <Content Include="Images\seniors\getfit.jpg" />
     <Content Include="Images\seniors\GetStrongLiveLong.jpg" />
     <Content Include="Images\seniors\SmartHeart.jpg" />

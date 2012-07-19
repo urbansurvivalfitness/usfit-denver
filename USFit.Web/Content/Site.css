@@ -1449,22 +1449,22 @@ span.best-value, span.popular
 styles for seniors.....
 */
 
-section.seniors
+section.content-section
 {
     margin-top:3em;
 }
 
-section.seniors-header h1
+section.content-section-header h1
 {
     color:#999;
 }
-section.seniors h2
+section.content-section h2
 {
     margin-bottom:.25em;
     color:#999;
 }
 
-section.seniors .image-placeholder
+section.content-section .image-placeholder
 {
     width: 350px; 
     height: 250px; 
@@ -1476,7 +1476,7 @@ section.seniors .image-placeholder
     background-color:#fff;
 }
 
-section.seniors img
+section.content-section img
 {
     width: 350px; 
     height: 250px;
