@@ -2,46 +2,49 @@
     ViewBag.Title = "Workout Classes | Fitness Classes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 @section featured{
     <section class="featured">
         <div class="featured-content content-wrapper container_12">
-            
             <div class="grid_2 vertical-nav-grid">
                 <div style="width: 100%; height: 100%;">
                     <ul>
-                        <li>
-                            <a class="medium grey button nav-button" href="/home/workout-classes">Workout Classes</a></li>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/youth-programs">Youth Programs</a></li>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/self-defense">Self Defense</a></li>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/seniors">Seniors Classes</a></li>
+                        <li><a class="medium grey button nav-button" href="/home/workout-classes">Workout Classes</a></li>
+                        <li><a class="medium orange button nav-button" href="/home/youth-programs">Youth Programs</a></li>
+                        <li><a class="medium orange button nav-button" href="/home/self-defense">Self Defense</a></li>
+                        <li><a class="medium orange button nav-button" href="/home/seniors">Seniors Classes</a></li>
                     </ul>
                 </div>
-
             </div>
             <div class="grid_10">
                 <section class="content-section-header">
-                    <div class="grid_12">
-                        <h1>Workout Classes & Fitness Classes for All Types of People.</h1>
-                        <p>More Details Coming Soon...</p>
+                    <div class="grid_8" id="primary-message">
+                        <h1>
+                            Workout Classes for All Skill Levels</h1>
+                        <blockquote>
+                            <p>
+                                Classes are <span>High Energy, Intense, Fun</span> & designed to push everyone at
+                                <span>ANY</span> fitness level. My guarantee <span>NO MORE BORING WORKOUTS!</span></p>
+                            <cite>Jeffrey McMillan - Master Survival Specialist</cite></blockquote>
+                    </div>
+                    <div class="coupon grid_4 primary-nav-button">
+                        <a id="coupon-button" href="/home/free-coupon?src=workout-classes" title="Print a coupon for our fitness classes & workout classes"
+                            class="super button orange">Free Drop-In Pass
+                            <br />
+                            (Print It!)</a>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
-                @*                <section class="content-section">
+                <section class="content-section">
                     <div class="grid_6">
-                        <h2>Get Fit Today!</h2>
-                        <p>It's never too late to get fit. Our exercise classes are guaranteed to help you maintain
-                            and grow cardiovascular health, strength, and flexibility. Newcomers - Seasoned
-                            Athletes - People of all Skill Levels - come and enjoy the benefits of working out
-                            in a group setting.</p>
+                        <h2>
+                            Short on Time? - No Problem.</h2>
+                        <p>
+                            Join a Class Today - Get an Intense - 50 Minute Workout - that targets your Core
+                            - Strength - Cardio & Flexibility.</p>
                     </div>
                     <div class="grid_6">
                         <div class="image-placeholder">
-                            image coming soon...
                         </div>
                     </div>
                 </section>
@@ -50,51 +53,110 @@
                 <section class="content-section">
                     <div class="grid_6">
                         <div class="image-placeholder">
-                            image coming soon...
                         </div>
                     </div>
                     <div class="grid_6">
-                        <h2>Turn the Key - Unlock Healthy Aging</h2>
-                        <p>Science has proven that exercise is the key to unlock healthy aging. Our workout
-                            classes will boost energy, maintain your independence, and keep you fit. </p>
+                        <h2>
+                            Stop! - Paying for Boring Workouts</h2>
+                        <p>
+                            Classes are a unique blend of:</p>
+                        <ul>
+                            <li>Body Weight Exercises</li>
+                            <li>Martial Arts & Boxking</li>
+                            <li>Agility Drills</li>
+                            <li>Sport Specific Training</li>
+                            <li>Dance Techniques</li>
+                            <li>Power Moves</li>
+                            <li>Yoga</li>
+                            <li>Stamina Development</li>
+                        </ul>
+                        <p>
+                            Each class is different - Each Class is FUN & INTENSE! - Can You Survive?</p>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
                 <section class="content-section">
                     <div class="grid_6">
-                        <h2>Stay Sharp - Mentally & Physically.</h2>
-                        <p>Exercise is good for your mind, mood, and memory. Exercise is key to staying strong,
-                            energetic, and healthy. We guarantee that exercising - Urban Survival Style - will
-                            keep your sharp - Mentally & Physically</p>
+                        <h2>
+                            Measure & Track your progress</h2>
+                        <p>
+                            Measuring & Tracking your progress should be important for you. We use the following
+                            metrics to help you track your progress...
+                        </p>
+                        <ul>
+                            <li>Body Composition</li>
+                            <li>Timed Skills Tests - Comparing to Personal Records - Peer Records - Instructor Records</li>
+                        </ul>
+                        <p>
+                            All Assessments are Optional but Strongly Encouraged</p>
                     </div>
                     <div class="grid_6">
                         <div class="image-placeholder" style="">
-                            image coming soon...
                         </div>
                     </div>
                 </section>
                 <div class="clearfix">
                 </div>
                 <section class="content-section">
-                    <div class="grid_6">
-                        <h2>Schedule</h2>
-                        <p>Limited Space Available...</p>
-                        <p>Classes forming now...</p>
-                        <h4><strong>Call for Details @USFit.Web.Constants.PrimaryPhone</strong></h4>
-                    </div>
-                    <div class="grid_6">
-                        <h2>Pricing</h2>
-                        <p>Seniors Get Special Rates...</p>
-                        <p>Group Rates Available...</p>
-                        <h4><strong>Call for Details @USFit.Web.Constants.PrimaryPhone</strong></h4>
+                    <div class="grid_12">
+                        <h3>
+                            What Our Students Say...</h3>
+                        </blockquote><blockquote>
+                            <p>
+                                Urban Survival Fitness is a place you test your limits every time, and its FUN!
+                                I feel I'm getting the best work-out in 50 minutes than I could ever achieve at
+                                the gym... Jeff is going to push you, but ultimately he wants you to know you're
+                                the only one who can make it happen!"</p>
+                            <p>
+                                <cite>Monica H. <span>Denver, CO</span></cite></p>
+                        </blockquote>
+                        </blockquote><blockquote>
+                            <p>
+                                My experience there really gave me the confidence that has fueled my weight loss
+                                journey. The atmosphere there gave me a new look on working out. The support and
+                                encouragement from the whole team there was much needed when trying new and challenging
+                                things. I want to thank everyone there for helping me realize my potential and my
+                                inner strength.</p>
+                            <p>
+                                <cite>Krisha O. <span>Denver, CO</span></cite></p>
+                        </blockquote>
                     </div>
                 </section>
                 <div class="clearfix">
-                </div>*@
+                </div>
+                <section class="content-section">
+                    <div class="grid_6">
+                        <h2>
+                            Schedule</h2>
+                        <ul>
+                            <li>Evenings - Monday thru Friday - 6:10 PM to 7:00 PM</li>
+                            <li>Mornings - Monday & Friday - 9:10 AM to 10:00 AM </li>
+                            <li>Weekends - Saturday - Returning Soon</li>
+                        </ul>
+                    </div>
+                    <div class="grid_6">
+                        <h2>
+                            Pricing</h2>
+                        <ul>
+                            <li>Most Popular - Monthly - $125 / Month - Unlimited Classes</li>
+                            <li>Best Value - Annual - $1200 / Year - Unlimited Classes</li>
+                            <li><a class="callout" href="~/home/pricing" alt="Full Price List" title="Link to the full price list">
+                                Full Pricing Info</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_12">
+                        <h2>
+                            <strong class="callout" style="font-size: 1em;">Call Us & Reserve Your Spot Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2>
+                    </div>
+                </section>
             </div>
-
-            <div class="clearfix"></div>
+            <div class="clearfix">
+            </div>
         </div>
     </section>
 }

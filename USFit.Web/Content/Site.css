@@ -1494,6 +1494,8 @@ section.content-section img
     color:#fb0238;
 }
 
+
+
 /********************
 *   Mobile Styles   *
 ********************/
@@ -2052,7 +2054,10 @@ a:hover {
     background-color: transparent;
 }
 
-
+a.callout
+{
+    color:#fb0238;
+}
 
 h1, h2, h3,
 h4, h5, h6 {
