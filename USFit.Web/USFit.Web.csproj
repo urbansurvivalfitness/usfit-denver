@@ -210,6 +210,9 @@
     <Content Include="Images\shiny_calendar_64px.png" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
+    <Content Include="Images\workout-classes\Boring-Preview.jpg" />
+    <Content Include="Images\workout-classes\Measure-Preview.jpg" />
+    <Content Include="Images\workout-classes\Time-Preview.jpg" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
