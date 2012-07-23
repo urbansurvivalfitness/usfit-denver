@@ -33,5 +33,5 @@ using System;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("1.0.0628.2307")]
-[assembly: AssemblyFileVersion("1.0.0628.2307")]
+[assembly: AssemblyVersion("1.0.0722.2250")]
+[assembly: AssemblyFileVersion("1.0.0722.2250")]
