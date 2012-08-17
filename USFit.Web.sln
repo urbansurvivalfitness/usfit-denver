@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USFit.Web", "USFit.Web\USFit.Web.csproj", "{E6FC6B81-C55E-4EAA-A1E5-FD02F37731AF}"
 EndProject
 Global
