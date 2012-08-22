@@ -9,14 +9,14 @@
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-use</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<url>
+	<!--<url>
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-service</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/legal/legal-information</loc>
 		<changefreq>weekly</changefreq>
-	</url>
+	</url>-->
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/</loc>
 		<changefreq>weekly</changefreq>
@@ -37,10 +37,10 @@
 		<loc>http://www.urbansurvivalfitness.com/home/contact-us</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<url>
+	<!--<url>
 		<loc>http://www.urbansurvivalfitness.com/home/blog</loc>
 		<changefreq>weekly</changefreq>
-	</url>
+	</url>-->
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/home/free-coupon</loc>
 		<changefreq>weekly</changefreq>
@@ -77,11 +77,11 @@
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-use</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<url>
+	<!--<url>
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-service</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/legal/legal-information</loc>
-	</url>
+	</url>-->
 </urlset>

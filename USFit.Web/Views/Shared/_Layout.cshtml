@@ -44,7 +44,8 @@
                 </div>
                 <div class="float-right primary-nav">
                     <h4 class="offscreen">Secondary Navigation - 1</h4><nav><ul class="inlineRuledRight">
-                        <li>@Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the blog roll for Urban Survival Fitness" })</li>
+                        <li><a href="http://urbansurvivalfitness.wordpress.com" title="Link to the blog for Urban Survival Fitness">Blog</a></li>
+                        <li>@Html.ActionLink("Our Staff", "Our-Staff", "Home", null, new { title = "View information about our staff members" })</li>
                         <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
                         <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
                         <li>@Html.ActionLink("Pricing", "Pricing", "Home", null, new { title = "Link to all pricing for all products and services offered by Urban Survival Fitness" })</li>
@@ -84,9 +85,9 @@
                     <p>&copy; 2010-@DateTime.Now.Year - Urban Survival Fitness&trade; - All Rights Reserved</p>
                     @Html.ActionLink("Home", "", "home", null, new { title = "Navigate to Home Page for Urban Survival Fitness" })
                     @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" })
-                    @Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })
-                    @Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })
-                    @Html.ActionLink("Blog", "Blog", "Home", null, new { title = "Navigate to the Blog" })
+                    @*@Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })*@
+                    @*@Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })*@
+                    <a href="http://urbansurvivalfitness.wordpress.com" title="Link to the blog for Urban Survival Fitness">Blog</a>
                 </div>
             </section> <section id="social-footer">
                 <div class="float-right">

@@ -67,3 +67,4 @@ Build/**/*results.xml
 csx
 /InceptionDeck/UpgradeLog2.XML
 packages
+/Backup

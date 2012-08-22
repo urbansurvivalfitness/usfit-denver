@@ -1487,6 +1487,47 @@ section.content-section img
     border-top-left-radius:8px;    
 }
 
+section.content-section img.bio
+{
+    border: 1px solid #f2f2f2;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;    
+}
+
+    section.content-section img.terri
+    {
+        height:195px;
+        width:195px;
+    }
+    section.content-section img.jeff
+    {
+        height:209px;
+        width:129px;
+    }
+    section.content-section img.johnnie
+    {
+        height:209px;
+        width:126px;
+    }
+section.bio p
+{
+    line-height:1.3em;
+    font-size:.9em;
+    margin-top:1.3em;
+}
+
+section.bio h2, h3
+{
+    color:#000;
+}
+
+section.bio h3
+{
+    margin-top:1.3em;
+}
+
 
 .callout
 {
