@@ -15,7 +15,12 @@ namespace USFit.Web {
                 .Include("~/Content/jquery.mobile-{version}.css", "~/Content/themes/blue-and-gold/usf-blue-and-orange*"));
 
             bundles.Add(new StyleBundle("~/Content/jquerymobile/images").Include("~/Content/themes/blue-and-gold/images/ajax-loader.gif",
-                "~/Content/themes/blue-and-gold/images/icons*"));
+                "~/Content/themes/blue-and-gold/images/ajax-loader.png",
+                "~/Content/themes/blue-and-gold/images/icons-18-black.png",
+                "~/Content/themes/blue-and-gold/images/icons-18-white.png",
+                "~/Content/themes/blue-and-gold/images/icons-36-black.png",
+                "~/Content/themes/blue-and-gold/images/icons-36-white.png"));
+                
                 
         }
     }
