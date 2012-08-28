@@ -43,13 +43,16 @@ namespace USFit.Web
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
-            BundleTable.Bundles.EnableDefaultBundles();
+            //BundleTable.Bundles.EnableDefaultBundles();
 
-#if DEBUG
-            foreach (var bundle in BundleTable.Bundles) {
-                bundle.Transform = new NoTransform();
-            }
-#endif
+//#if DEBUG
+//            foreach (var bundle in BundleTable.Bundles) {
+//                bundle.Transform = new NoTransform();
+//            }
+//#endif
+
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            BundleMobileConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }

@@ -67,6 +67,7 @@
             </div>
         </header>
         <div id="body">
+            @Html.Partial("_ViewSwitcher")
             @RenderSection("after-header", required: false)
             @RenderSection("featured", required: false)
             <section class="content-wrapper main-content wrapper container_12">
@@ -89,7 +90,11 @@
                     @*@Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })*@
                     <a href="http://urbansurvivalfitness.wordpress.com" title="Link to the blog for Urban Survival Fitness">Blog</a>
                 </div>
-            </section> <section id="social-footer">
+
+                @Html.Partial("_ViewSwitcher")
+            </section> 
+            
+            <section id="social-footer">
                 <div class="float-right">
                     <ul id="social">
                         <li>
@@ -106,7 +111,11 @@
             <article></article>
         </div>
     </footer>
-    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/jquery")"></script>
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/jqueryui")"></script>
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/jqueryval")"></script>
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/modernizr")"></script>
+    <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/shared")"></script>
     @RenderSection("javaScriptFooter", required: false)
     <script>
         var _gaq = [['_setAccount', 'UA-30913081-1'], ['_trackPageview']];

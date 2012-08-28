@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Workout Classes";
+}
+
+<h1>Workout Classes</h1>
+
+<section class="content-section-header">
+    <div class="grid_8" id="primary-message">
+        <h1>Workout Classes for All Skill Levels</h1>
+        <blockquote>
+            <p>
+                Classes are <span>High Energy, Intense, Fun</span> & designed to push everyone at
+                                <span>ANY</span> fitness level. My guarantee <span>NO MORE BORING WORKOUTS!</span>
+            </p>
+            <cite>Jeffrey McMillan - Master Survival Specialist</cite>
+        </blockquote>
+    </div>
+    <div class="coupon grid_4 primary-nav-button">
+        <a id="coupon-button" href="/home/free-coupon?src=workout-classes" title="Print a coupon for our fitness classes & workout classes"
+            class="super button orange">Free Drop-In Pass
+                            <br />
+            (Print It!)</a>
+    </div>
+</section>
+<div class="clearfix">
+</div>
+<section class="content-section">
+    <div class="grid_6">
+        <h2>Short on Time? - No Problem.</h2>
+        <p>
+            Join a Class Today - Get an Intense - 50 Minute Workout - that targets your Core
+                            - Strength - Cardio & Flexibility.
+        </p>
+    </div>
+    <div class="grid_6">
+        <div>
+            <img src="@Url.Content("~/images/workout-classes/time-preview.jpg")" alt="image of a clock showing that its time to get in shape." title="Image displaying a clock that says its time to get in shape." />
+        </div>
+    </div>
+</section>
+
+@Html.Partial("PageNav")
