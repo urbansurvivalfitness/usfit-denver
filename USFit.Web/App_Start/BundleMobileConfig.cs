@@ -14,7 +14,8 @@ namespace USFit.Web {
             bundles.Add(new StyleBundle("~/Content/jquerymobile/css")
                 .Include("~/Content/jquery.mobile-{version}.css", "~/Content/themes/blue-and-gold/usf-blue-and-orange*"));
 
-            bundles.Add(new StyleBundle("~/Content/jquerymobile/images").Include("~/Content/themes/blue-and-gold/images/*"));
+            bundles.Add(new StyleBundle("~/Content/jquerymobile/images").Include("~/Content/themes/blue-and-gold/images/ajax-loader.gif",
+                "~/Content/themes/blue-and-gold/images/icons*"));
                 
         }
     }
