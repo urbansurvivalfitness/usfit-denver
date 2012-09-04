@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <title>@ViewBag.Title</title> 
         <meta name="viewport" content="width=device-width" />
+        @RenderSection("meta", required: false)
+
         @Styles.Render("~/Content/Mobile/css", "~/Content/jquerymobile/css")
         @Scripts.Render("~/bundles/jquery", "~/bundles/jquerymobile")
         <script>
@@ -18,6 +20,7 @@
         @Html.Partial("_ViewSwitcher")
 
         <div data-role="header">
+            <a href="~/home/index" data-icon="home">Home</a>
             <h1>@ViewBag.Title</h1>
         </div>
 

@@ -1,9 +1,6 @@
 ﻿@{
-    ViewBag.Title = "Workout Classes";
+    ViewBag.Title = "Classes";
 }
-
-<h1>Workout Classes</h1>
-
 <section class="content-section-header">
     <div class="grid_8" id="primary-message">
         <h1>Workout Classes for All Skill Levels</h1>
@@ -17,9 +14,7 @@
     </div>
     <div class="coupon grid_4 primary-nav-button">
         <a id="coupon-button" href="/home/free-coupon?src=workout-classes" title="Print a coupon for our fitness classes & workout classes"
-            class="super button orange">Free Drop-In Pass
-                            <br />
-            (Print It!)</a>
+            class="super button orange">Show This Free Drop-In Pass at the Door!</a>
     </div>
 </section>
 <div class="clearfix">
@@ -32,10 +27,126 @@
                             - Strength - Cardio & Flexibility.
         </p>
     </div>
-    <div class="grid_6">
+    @*<div class="grid_6">
         <div>
             <img src="@Url.Content("~/images/workout-classes/time-preview.jpg")" alt="image of a clock showing that its time to get in shape." title="Image displaying a clock that says its time to get in shape." />
         </div>
+    </div>*@
+</section>
+
+<div class="clearfix">
+</div>
+<section class="content-section">
+    @*<div class="grid_6">
+        <div>
+            <img src="@Url.Content("~/images/workout-classes/boring-preview.jpg")" alt="image of measurement tools that measure and track your fitness progress" 
+                                title="image of measurement tools that measure and track your fitness progress" />
+        </div>
+    </div>*@
+    <div class="grid_6">
+        <h2>Stop! - Paying for Boring Workouts</h2>
+        <p>
+            Classes are a unique blend of:
+        </p>
+        <ul>
+            <li>Body Weight Exercises</li>
+            <li>Martial Arts & Boxking</li>
+            <li>Agility Drills</li>
+            <li>Sport Specific Training</li>
+            <li>Dance Techniques</li>
+            <li>Power Moves</li>
+            <li>Yoga</li>
+            <li>Stamina Development</li>
+        </ul>
+        <p>
+            Each class is different - Each Class is FUN & INTENSE! - Can You Survive?
+        </p>
+    </div>
+</section>
+<div class="clearfix">
+</div>
+<section class="content-section">
+    <div class="grid_6">
+        <h2>Measure & Track your progress</h2>
+        <p>
+            Measuring & Tracking your progress should be important for you. We use the following
+                            metrics to help you track your progress...
+        </p>
+        <ul>
+            <li>Body Composition</li>
+            <li>Timed Skills Tests - Comparing to Personal Records - Peer Records - Instructor Records</li>
+        </ul>
+        <p>
+            All Assessments are Optional but Strongly Encouraged
+        </p>
+    </div>
+@*    <div class="grid_6">
+        <div>
+            <img src="@Url.Content("~/images/workout-classes/measure-preview.jpg")" alt="image of measurement tools that measure and track your fitness progress" 
+                                title="image of measurement tools that measure and track your fitness progress" />
+        </div>
+    </div>*@
+</section>
+<div class="clearfix">
+</div>
+<section class="content-section">
+    <div class="grid_12">
+        <h2>What Our Students Say...</h2>
+        <blockquote>
+            <p>
+                Urban Survival Fitness is a place you test your limits every time, and its FUN!
+                                I feel I'm getting the best work-out in 50 minutes than I could ever achieve at
+                                the gym... Jeff is going to push you, but ultimately he wants you to know you're
+                                the only one who can make it happen!"
+            </p>
+            <p>
+                <cite>Monica H. <span>Denver, CO</span></cite>
+            </p>
+        </blockquote>
+        <blockquote>
+            <p>
+                My experience there really gave me the confidence that has fueled my weight loss
+                                journey. The atmosphere there gave me a new look on working out. The support and
+                                encouragement from the whole team there was much needed when trying new and challenging
+                                things. I want to thank everyone there for helping me realize my potential and my
+                                inner strength.
+            </p>
+            <p>
+                <cite>Krisha O. <span>Denver, CO</span></cite>
+            </p>
+        </blockquote>
+    </div>
+</section>
+<div class="clearfix">
+</div>
+<section class="content-section">
+    <div class="grid_6">
+        <h2>Schedule</h2>
+        <ul>
+            <li>Evenings - Monday thru Friday - 6:10 PM to 7:00 PM</li>
+            <li>Mornings - Monday & Friday - 9:10 AM to 10:00 AM </li>
+            <li>Weekends - Saturday - Returning Soon</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="grid_6">
+        <h2>Pricing</h2>
+        <ul>
+            <li>Most Popular - Monthly - $125 / Month - Unlimited Classes</li>
+            <li>Best Value - Annual - $1200 / Year - Unlimited Classes</li>
+            <li><a class="callout" href="~/home/pricing" alt="Full Price List" title="Link to the full price list">Full Pricing Info</a></li>
+        </ul>
+    </div>
+</section>
+<div class="clearfix">
+</div>
+<section class="content-section">
+    <div class="grid_12">
+        <h2>
+            <strong class="callout" style="font-size: 1em;">Call Us & Reserve Your Spot Today!</strong></h2>
+        <h2> @USFit.Web.Constants.PrimaryPhone</h2>
     </div>
 </section>
 
