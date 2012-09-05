@@ -27,3 +27,38 @@ input[type="password"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+
+.phone-image-16
+{
+    height:16px;
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.phone-image-red-16
+{
+    height:16px;
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.location-image-red-16
+{
+    height:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:4px;
+}
+
+.email-image-red-16
+{
+    width:16px;
+    float:left;
+    margin-right:.25em;
+    margin-top:6px;
+}
+
