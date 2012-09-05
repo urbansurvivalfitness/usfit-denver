@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Our Location";
+}
+
+<section class="featured">
+    <div class="featured-content content-wrapper container_12" style="overflow-y: auto">
+        <div class="grid_6">
+            <h2 id="location-header">Urban Survival Fitness is located... 
+                <ul>
+                    <li>near <span>38th & Jasmine</span></li>
+                    <li>next to <span>Metro Taxi</span></li>
+                    <li>behind the <span>Shaka Franklin</span> building</li>
+                </ul>
+            </h2>
+@*            <br />
+            <h3>Get Driving Directions</h3>
+            <fieldset>
+                <legend>Directions</legend>
+                <ol>
+                    <li>
+                        <label for="start">Starting From...</label>
+                        <input type="text" id="startvalue" placeholder="Starting Address" value="" /></li>
+                    <li>
+                        <label for="End">Arriving at Urban Survival Fitness</label>
+                        <input type="text" id="endvalue" readonly="readonly" disabled="disabled" value="5929 E 38th Ave, Building B, Denver CO" />
+                    </li>
+                    <li>
+                        <button id="getDirectionsButton">Get Directions</button></li>
+                </ol>
+            </fieldset>
+            <div class="clearfix">
+            </div>
+            <div id="directionpanel">
+            </div>
+            <div class="clearfix">
+            </div>*@
+        </div>
+        @*<div class="grid_6 map-container">
+            <div id="map">
+            </div>
+            <small>View
+                    <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=207353863949487353628.0004c0f1a86f8e066e3aa&amp;ie=UTF8&amp;t=m&amp;ll=39.770053,-104.919004&amp;spn=0.005772,0.00912&amp;z=16&amp;source=embed"
+                        style="color: #0000FF; text-align: left">Urban Survival Fitness</a>
+                in a larger map</small>
+        </div>*@
+
+        <div class="clearfix"></div>
+    </div>
+</section>
+
+<div class="grid_12">
+    <h4>Call Us for Directions - @USFit.Web.Constants.PrimaryPhone</h4>
+    <ul>
+        <li><strong>Physical address </strong>- 5929 E 38th Ave, Building B, Denver CO</li>
+        <li><strong>Basic Directions - </strong>our building is east of Metro Taxi and directly
+            behind the Shaka Franklin building</li>
+        <li><strong>Landmarks</strong> - Look for the sign on the top of our building that says
+            'Urban Survival Fitness'. </li>
+    </ul>
+</div>
+<div class="clearfix">
+</div>
+
+@*<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script language="javascript" type="text/javascript">
+    var directionsDisplay;
+    var directionsService = new google.maps.DirectionsService();
+
+    function InitializeMap() {
+        directionsDisplay = new google.maps.DirectionsRenderer();
+        //var latlng = new google.maps.LatLng(-34.397, 150.644);
+        var latlng = new google.maps.LatLng(39.770053, -104.919004);
+        var myOptions =
+        {
+            zoom: 16,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+
+        var marker = new google.maps.Marker(
+            {
+                position: latlng,
+                map: map,
+                title: "Urban Survival Fitness"
+            }
+        );
+
+        var infowindow = new google.maps.InfoWindow(
+            {
+                content: "<p><strong>Urban Survival Fitness</strong><p>" +
+                    "<p><strong>Phone:</strong>720-838-4401</p>" +
+                    "<p>5929 E 38th Ave, Building B, Denver CO</p>"
+            }
+        );
+
+        google.maps.event.addListener(marker, "click", function () { infowindow.open(map, marker); });
+
+        directionsDisplay.setMap(map);
+        directionsDisplay.setPanel(document.getElementById('directionpanel'));
+    }
+
+
+
+    function calcRoute() {
+
+        var start = document.getElementById('startvalue').value;
+        var end = document.getElementById('endvalue').value;
+        var request = {
+            origin: start,
+            destination: end,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING
+        };
+        directionsService.route(request, function (response, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+                directionsDisplay.setDirections(response);
+            }
+        });
+
+    }
+
+    $(document).ready(function () {
+        InitializeMap();
+        $("#getDirectionsButton").button().click(function () {
+            $("#directionpanel").addClass("directionsContainer");
+            calcRoute();
+        });
+    });
+</script>*@

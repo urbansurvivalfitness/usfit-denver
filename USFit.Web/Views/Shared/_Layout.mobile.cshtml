@@ -1,20 +1,20 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8" />
-        <title>@ViewBag.Title</title> 
-        <meta name="viewport" content="width=device-width" />
-        @RenderSection("meta", required: false)
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    @RenderSection("meta", required: false)
 
-        @Styles.Render("~/Content/Mobile/css", "~/Content/jquerymobile/css")
-        @Scripts.Render("~/bundles/jquery", "~/bundles/jquerymobile")
-        <script>
-            $(document).ready(function () {
-                $.mobile.ajaxEnabled = false; 
-            });
-        </script>
-    </head> 
-<body> 
+    @Styles.Render("~/Content/Mobile/css", "~/Content/jquerymobile/css")
+    @Scripts.Render("~/bundles/jquery", "~/bundles/jquerymobile")
+    <script>
+        $(document).ready(function () {
+            $.mobile.ajaxEnabled = true;
+        });
+    </script>
+</head>
+<body>
 
     <div data-role="page" data-theme="a">
         @Html.Partial("_ViewSwitcher")
@@ -23,11 +23,18 @@
             <a href="~/home/index" data-icon="home">Home</a>
             <h1>@ViewBag.Title</h1>
             <a href="~/home/contact-us" data-icon="info">Contact</a>
+            @Html.Partial("FooterNav")
         </div>
 
         <div data-role="content">
             @RenderSection("featured", false)
-            @RenderBody()		
+            @RenderBody()
+
+            @Html.Partial("PageNav")
+        </div>
+
+        <div data-role="footer" id="footer" data-positon="fixed">
+            @Html.Partial("FooterNav")
         </div>
 
     </div>

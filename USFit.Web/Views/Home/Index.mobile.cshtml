@@ -5,8 +5,10 @@
 <h1>Urban Survival Fitness</h1>
 <p>The best no frills gym in Denver, servicing the Park Hill - City Park - Stapleton & Surrounding Areas!</p>
 
+<h2>Our Services</h2>
 @Html.Partial("PageNav")
 
+<h3>Our Message...</h3>
 <blockquote class="offscreen">
     <p>
         Our specialized group fitness classes are designed for beginning to elite levels
@@ -27,4 +29,83 @@
     <cite>Jeffery McMillan - Urban Survival Fitness</cite>
 </blockquote>
 
-@Html.Partial("PageNav")
+<div class="grid_8" id="primary-message">
+    <h3>We Guarantee...</h3>
+    <blockquote>
+        <p>Classes are <span>High Energy, Intense, Fun</span> and designed to push everyone
+            at <span>ANY</span> fitness level. We guarantee <span>NO MORE BORING WORKOUTS!</span></p>
+        <cite>Jeffrey McMillan - Master Survival Specialist</cite></blockquote>
+    <div class="clearfix">
+    </div>
+    <div class="grid_6 service-offerings">
+        <section>
+            <h3>Features...</h3>
+            <ul>
+                <li>Develop strength & cardio endurance</li>
+                <li>One or more certified personal trainers in every class</li>
+                <li>One on one training is available</li>
+                <li>Personalized fitness & nutrition programs are available</li>
+                <li>All equipment is safe, clean, and well maintained</li>
+                <li>Classes combine martial arts & dance techniques</li>
+                <li>Build agility & power with sports specific moves, yoga, and core strength</li>
+                <li>Body weight exercises build the foundation of our classes</li>
+                <li>Guaranteed Challenging, Fun & Friendly Group Classes</li>
+            </ul></section>
+    </div>
+    <div class="grid_6 benefits">
+        <section id="benefits">
+            <h3>Benefits...</h3>
+            <ul>
+                <li>Classes always change - unlike your average bootcamp</li>
+                <li>A great supplement to any triathalon - strong man - obstacle course - adventure
+                    course - or athletic program that you may be training for</li>
+                <li>Participate in workouts that are as tough as crossfit without the elitist attitude
+                    or technical requirements</li>
+                <li>With our help you will build the body that you want to see in the mirror</li>
+                <li>Build an athletic body and mind that is bigger, stronger, and faster than the average
+                    for your age group</li>
+                <li>Obtain a level of fitness that will last a lifetime</li>
+            </ul></section>
+    </div>
+</div>
+<div class="clearfix">
+</div>
+
+
+<div class="grid_4 customer-quotes">
+    <section>
+        <h3>What Our Students Say...</h3>
+        <blockquote>
+            <p>The group fitness classes help me train for the triathalons that I run yearly</p>
+            <p><cite>Joe S. <span>Denver, CO</span></cite></p>
+        </blockquote><blockquote>
+            <p>Urban Survival Fitness is a place you test your limits every time, and its FUN! I
+                feel I'm getting the best work-out in 50 minutes than I could ever achieve at the
+                gym... Jeff is going to push you, but ultimately he wants you to know you're the
+                only one who can make it happen!"</p>
+            <p><cite>Monica H. <span>Denver, CO</span></cite></p>
+        </blockquote><blockquote>
+            <p>I rely on the cardio aspect of the group fitness to suppliment my crossfit and olympic
+                lifting routines. Plus, Jeff helps me acheive my goals - to look better with my
+                shirt off!</p>
+            <p><cite>Cedric B. <span>Denver, CO</span></cite></p>
+        </blockquote><blockquote>
+            <p>My experience there really gave me the confidence that has fueled my weight loss
+                journey. The atmosphere there gave me a new look on working out. The support and
+                encouragement from the whole team there was much needed when trying new and challenging
+                things. I want to thank everyone there for helping me realize my potential and my
+                inner strength.</p>
+            <p><cite>Krisha O. <span>Denver, CO</span></cite></p>
+        </blockquote></section>
+</div>
+
+<div class="grid_6 single-row">
+    <section id="logo">
+        <img class="logo" src="@Url.Content("~/images/usfbnr.gif")" title="Logo for Urban Survival Fitness in Denver, Park Hill, and Stapleton" alt="Logo for Urban Survival Fitness in Denver, Park Hill, and Stapleton" />
+    </section>
+</div>
+
+@section meta{
+    <meta name="description" content="Urban Survival Fitness is the best no frills fitness gym in Denver, servicing the Park Hill, City Park
+                            and Stapleton areas.  We offer group fitness classes and personal training.  Read more to find out about our students and classes.  Can you survive?" />
+}

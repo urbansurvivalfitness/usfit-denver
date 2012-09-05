@@ -1,64 +1,122 @@
-﻿.view-switcher {
-    padding: 0.5em; 
+﻿.view-switcher
+{
+    padding: 0.5em;
     font-weight: normal;
 }
 
 /* styles for validation helpers */
-.field-validation-error {
+.field-validation-error
+{
     color: #e80c4d;
     font-weight: bold;
 }
 
-.field-validation-valid {
+.field-validation-valid
+{
     display: none;
 }
 
 input[type="text"].input-validation-error,
-input[type="password"].input-validation-error {
+input[type="password"].input-validation-error
+{
     border: solid 1px #e80c4d;
 }
 
-.validation-summary-errors {
+.validation-summary-errors
+{
     color: #e80c4d;
     font-weight: bold;
     font-size: 1.1em;
 }
 
-.validation-summary-valid {
+.validation-summary-valid
+{
     display: none;
 }
 
 .phone-image-16
 {
-    height:16px;
-    width:16px;
-    float:left;
-    margin-right:.25em;
-    margin-top:4px;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: .25em;
+    margin-top: 4px;
 }
 
 .phone-image-red-16
 {
-    height:16px;
-    width:16px;
-    float:left;
-    margin-right:.25em;
-    margin-top:4px;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: .25em;
+    margin-top: 4px;
 }
 
 .location-image-red-16
 {
-    height:16px;
-    float:left;
-    margin-right:.25em;
-    margin-top:4px;
+    height: 16px;
+    float: left;
+    margin-right: .25em;
+    margin-top: 4px;
 }
 
 .email-image-red-16
 {
-    width:16px;
-    float:left;
-    margin-right:.25em;
-    margin-top:6px;
+    width: 16px;
+    float: left;
+    margin-right: .25em;
+    margin-top: 6px;
 }
 
+.featured-coupon h1, .featured-coupon h2, .featured-coupon h3, .featured-coupon h4, .featured-coupon h5, .featured-coupon h6
+{
+    color: #000000;
+}
+
+
+.featured-coupon .content-wrapper
+{
+    background-color: #f2f2f2;
+    background-image: -ms-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f2f2f2), color-stop(1, #ffffff));
+    background-image: -webkit-linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+    background-image: linear-gradient(left, #f2f2f2 0%, #ffffff 100%);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: #000;
+}
+
+
+
+.coupon
+{
+    text-align: center;
+}
+
+.coupon-container
+{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #686868;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 2em;
+}
+
+    .coupon-container h2
+    {
+        margin-top: .25em;
+        margin-bottom: 1em;
+    }
+
+    .coupon-container ul
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: 1em;
+    }
