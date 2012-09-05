@@ -340,6 +340,7 @@
     <Content Include="Views\Home\Workout-Classes.mobile.cshtml" />
     <Content Include="Views\Shared\PageNav.cshtml" />
     <Content Include="Views\Home\youth-programs.mobile.cshtml" />
+    <Content Include="Views\Home\Seniors.mobile.cshtml" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Http.WebHost.dll" />
