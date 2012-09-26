@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
 	<url>
 		<loc>http://www.urbansurvivalfitness.com</loc>
 		<changefreq>weekly</changefreq>
@@ -9,24 +8,12 @@
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-use</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<!--<url>
-		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-service</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	<url>
-		<loc>http://www.urbansurvivalfitness.com/legal/legal-information</loc>
-		<changefreq>weekly</changefreq>
-	</url>-->
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/home/pricing</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	<url>
-		<loc>http://www.urbansurvivalfitness.com/home/special-events</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
@@ -37,10 +24,6 @@
 		<loc>http://www.urbansurvivalfitness.com/home/contact-us</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<!--<url>
-		<loc>http://www.urbansurvivalfitness.com/home/blog</loc>
-		<changefreq>weekly</changefreq>
-	</url>-->
 	<url>
 		<loc>http://www.urbansurvivalfitness.com/home/free-coupon</loc>
 		<changefreq>weekly</changefreq>
@@ -66,10 +49,6 @@
 		<changefreq>weekly</changefreq>
 	</url>
 	<url>
-		<loc>http://www.urbansurvivalfitness.com/home/our-facility</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	<url>
 		<loc>http://www.urbansurvivalfitness.com/home/our-location</loc>
 		<changefreq>weekly</changefreq>
 	</url>	
@@ -77,11 +56,4 @@
 		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-use</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<!--<url>
-		<loc>http://www.urbansurvivalfitness.com/legal/terms-of-service</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	<url>
-		<loc>http://www.urbansurvivalfitness.com/legal/legal-information</loc>
-	</url>-->
 </urlset>

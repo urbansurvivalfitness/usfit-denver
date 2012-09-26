@@ -44,7 +44,7 @@
                 </div>
                 <div class="float-right primary-nav">
                     <h4 class="offscreen">Secondary Navigation - 1</h4><nav><ul class="inlineRuledRight">
-                        <li><a href="http://urbansurvivalfitness.wordpress.com" title="Link to the blog for Urban Survival Fitness">Blog</a></li>
+                        <li><a href="http://blog.urbansurvivalfitness.com" title="Link to the blog for Urban Survival Fitness">Blog</a></li>
                         <li>@Html.ActionLink("Our Staff", "Our-Staff", "Home", null, new { title = "View information about our staff members" })</li>
                         <li>@Html.ActionLink("Contact Us", "Contact-Us", "Home", null, new { title = "Navigate to view all contact information for Urban Survival Fitness" })</li>
                         <li>@Html.ActionLink("Schedules", "Class-Schedules", "Home", null, new { title = "Link to all class schedules offered by Urban Survival Fitness" })</li>
@@ -61,7 +61,7 @@
                     <div class="clearfix">
                     </div>
                     <div class="special-events-nav float-right">
-                        <img src="@Url.Content("../Images/shiny_calendar_32px.png")" /><a href="~/Home/Special-Events">Special
+                        <img src="@Url.Content("../Images/shiny_calendar_32px.png")" /><a title="A link to the upcoming special events at Urban Survival Fitness" href="http://blog.urbansurvivalfitness.com/category/special-events/">Special
                             Events</a></div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     @Html.ActionLink("Terms of Use", "terms-of-use", "legal", null, new { title = "Navigate to Terms of Use" })
                     @*@Html.ActionLink("Terms of Service", "terms-of-service", "legal", null, new { title = "Navigate to Terms of Service" })*@
                     @*@Html.ActionLink("Legal", "legal-information", "legal", null, new { title = "Navigate to Legal Information" })*@
-                    <a href="http://urbansurvivalfitness.wordpress.com" title="Link to the blog for Urban Survival Fitness">Blog</a>
+                    <a href="http://blog.urbansurvivalfitness.com" title="Link to the blog for Urban Survival Fitness">Blog</a>
                 </div>
 
                 @Html.Partial("_ViewSwitcher")
