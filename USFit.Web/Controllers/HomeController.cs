@@ -17,7 +17,8 @@ namespace USFit.Web.Controllers
         [ActionName("Special-Events")]
         public ActionResult SpecialEvents()
         {
-            return View();
+            
+            return new RedirectResult("http://blog.urbansurvivalfitness.com/category/special-events/", true);
         }
 
         [ActionName("Seniors")]
