@@ -6,18 +6,7 @@
     <section class="featured">
         <div class="featured-content content-wrapper container_12">
             <div class="grid_2 vertical-nav-grid">
-                <div style="width: 100%; height: 100%;">
-                    <ul>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/workout-classes">Workout Classes</a></li>
-                        <li>
-                            <a class="medium grey button nav-button" href="/home/youth-programs">Youth Programs</a></li>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/self-defense">Self Defense</a></li>
-                        <li>
-                            <a class="medium orange button nav-button" href="/home/seniors">Seniors Classes</a></li>
-                    </ul>
-                </div>
+                @Html.Partial("VerticalNavGrid", ViewData["Page"] = "Youth")
             </div>
             <div class="grid_10">
                 <section class="content-section-header">
@@ -37,7 +26,13 @@
                 </section>
                 <div class="clearfix">
                 </div>
-				
+				<section class="content-section">
+                    <div class="grid_12">
+                        <h2><strong class="callout">Call Us Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2><br />
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
                 <section class="content-section">
                     <div class="grid_6">
                         <h2>Fitness & Nutrition</h2>

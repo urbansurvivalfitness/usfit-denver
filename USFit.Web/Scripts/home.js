@@ -140,6 +140,9 @@ $(document).ready(function () {
                 case "b4":
                     targetId = "t4";
                     break;
+                case "b5":
+                    targetId = "t5";
+                    break;
             }
 
             $targets.each(function () {

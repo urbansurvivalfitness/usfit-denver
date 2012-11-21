@@ -3,13 +3,14 @@
     var theme = ViewBag.Theme;
 }
 @section featured {
-    
+
     <section class="featured">
         <div class="featured-content content-wrapper container_12">
             <div class="grid_8 image-container">
                 <div id="fitness-enthusiast" class="target t1">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" alt="a group of young people enjoying a workout class" src="@Url.Content("images/home/fitness-enthusiast-1.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a group of young people enjoying a workout class" src="@Url.Content("images/home/fitness-enthusiast-1.jpg")" />
+                    </div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -19,9 +20,22 @@
                             people in one of our group fitness classes.  Our fitness classes guarantee results.</p>
                     </div>
                 </div>
+                <div id="yoga" class="offscreen target t5">
+                    <div class="target-image-container">
+                        <img style="width:100%;" class="target-image-container" alt="a group of people practicing yoga" src="@Url.Content("images/home/yoga-1.jpg")" />
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                    <div class="target-descr">
+                        <p>Karlee Jakalow & Urban Survival Fitness have partnered to bring you Power Yoga.  Power Yoga has an emphasis on strength & flexibility.  
+                            Our Power Yoga Classes are group classes for all levels, ages, and fitness levels.  Call us today - to reserve your spot in one of our upcoming Power Yoga Classes.
+                        </p>
+                    </div>
+                </div>
                 <div id="youth-athletics" class="offscreen target t2">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" alt="a group of young children having fun together in a fitness class" src="@Url.Content("images/home/youth-athletics-1.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a group of young children having fun together in a fitness class" src="@Url.Content("images/home/youth-athletics-1.jpg")" />
+                    </div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -33,7 +47,8 @@
                 </div>
                 <div id="womens-fitness" class="offscreen target t3">
                     <div class="target-image-container">
-                        <img style="width:100%;" class="target-image-container" alt="a woman having fun practicing self defense and exercising in a workout class" src="@Url.Content("images/home/womens-self-defense-1.jpg")" /></div>
+                        <img style="width:100%;" class="target-image-container" alt="a woman having fun practicing self defense and exercising in a workout class" src="@Url.Content("images/home/womens-self-defense-1.jpg")" />
+                    </div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -46,7 +61,8 @@
                 </div>
                 <div id="seniors" class="offscreen target t4">
                     <div class="target-image-container">
-                        <img class="target-image-container" alt="a group of seniors having fun exercising together in a fitness class" src="@Url.Content("images/home/seniors-1.jpg")" /></div>
+                        <img class="target-image-container" alt="a group of seniors having fun exercising together in a fitness class" src="@Url.Content("images/home/seniors-1.jpg")" />
+                    </div>
                     <div class="clearfix">
                     </div>
                     <div class="target-descr">
@@ -59,26 +75,40 @@
             </div>
             <div class="grid_4 button-container">
                 <div class="primary-nav-button">
-                    <a id="b1" href="/home/workout-classes" class="super button orange" title="A link to more information about fitness classes & workout classes at Urban Survival Fitness">
-                        Workout Classes</a></div>
+                    <a id="b1" href="/home/workout-classes" class="super button orange" title="A link to more information about fitness classes & workout classes at Urban Survival Fitness">Workout Classes</a>
+                </div>
                 <div class="clearfix">
                 </div>
                 <div class="primary-nav-button">
-                    <a id="b2" class="super button orange" href="/home/youth-programs" title="A link to more information about youth programs & youth workout classes at Urban Survival Fitness">
-                        Youth Programs</a></div>
+                    <a id="b5" href="/home/power-yoga-classes" class="super button orange" title="A link to more information about Power Yoga Classes at Urban Survival Fitness">Power Yoga Classes</a>
+                </div>
                 <div class="clearfix">
                 </div>
                 <div class="primary-nav-button">
-                    <a id="b3" class="super button orange" href="/Home/self-defense" title="A link to the self defense workout classes at Urban Survival Fitness">
-                        Self Defense</a></div>
+                    <a id="b2" class="super button orange" href="/home/youth-programs" title="A link to more information about youth programs & youth workout classes at Urban Survival Fitness">Youth Programs</a>
+                </div>
                 <div class="clearfix">
                 </div>
                 <div class="primary-nav-button">
-                    <a id="b4" class="super button orange" href="/home/seniors" title="A link to the fitness classes for seniors at Urban Survival Fitness">
-                        Seniors Classes</a></div>
+                    <a id="b3" class="super button orange" href="/Home/self-defense" title="A link to the self defense workout classes at Urban Survival Fitness">Self Defense</a>
+                </div>
+                <div class="clearfix">
+                </div>
+                <div class="primary-nav-button">
+                    <a id="b4" class="super button orange" href="/home/seniors" title="A link to the fitness classes for seniors at Urban Survival Fitness">Seniors Classes</a>
+                </div>
                 <div class="clearfix">
                 </div>
             </div>
+            <div class="clearfix">
+            </div>
+
+            <section class="content-section">
+                <div class="grid_12">
+                    <h2><strong class="callout">Call Us Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2>
+                    <br />
+                </div>
+            </section>
             <div class="clearfix">
             </div>
         </div>

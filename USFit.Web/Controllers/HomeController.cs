@@ -8,6 +8,7 @@ namespace USFit.Web.Controllers
 {
     public class HomeController : Controller
     {
+
         [ActionName("free-coupon")]
         public ActionResult FreeCoupon()
         {
@@ -41,6 +42,12 @@ namespace USFit.Web.Controllers
 
         [ActionName("Workout-Classes")]
         public ActionResult WorkoutClasses()
+        {
+            return View();
+        }
+
+        [ActionName("power-yoga-classes")]
+        public ActionResult PowerYogaClasses()
         {
             return View();
         }

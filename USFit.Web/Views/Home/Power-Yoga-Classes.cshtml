@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Power Yoga Classes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section featured{
+    <section class="featured">
+        <div class="featured-content content-wrapper container_12">
+            <div class="grid_2 vertical-nav-grid">
+                @Html.Partial("VerticalNavGrid", ViewData["Page"] = "PowerYoga")
+            </div>
+            <div class="grid_10">
+                <section class="content-section-header">
+                    <div class="grid_8">
+                        <h1>Power Yoga Classes</h1>
+                        <ul>
+                            <li>Focused on Strength & Flexibility</li>
+                            <li>Great for - All Ages & Skill Levels</li>
+                            <li>Reduce Stress & Tension</li>
+                        </ul>
+                    </div>
+                    <div class="coupon grid_4 primary-nav-button">
+                        <a id="coupon-button" href="/home/free-coupon?src=power-yoga" title="Print a coupon for our fitness classes & workout classes"
+                            class="super button orange">Free Drop-In Pass
+                            <br />
+                            (Print It!)</a>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_12">
+                        <h2><strong class="callout">Call Us Today! (@USFit.Web.Constants.PrimaryPhone)</strong></h2><br />
+                    </div>
+                </section>
+
+                <section class="content-section">
+                    <div class="grid_9">
+                        <h2>What is Power Yoga?</h2>
+                        <p>In comparison to other styles of yoga Power Yoga uses both strength and improvement of flexibility.  
+                            This style of yoga can be done by all ages and all skill levels.  
+                            With continual practice you will also notice and feel the mental benefits also.  
+                            Yoga helps you deal with stress in a more positive manner.  
+                            Yoga focuses on breath and postures with a continual flow and a special section of core so it will only strengthen your practice even more.</p>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_9">
+                        <h2>Who is Karlee Jakalow?</h2>
+                        <p>Southern gal who served in the US Air Force for six years.  
+                            After graduating college decided to teach art  to kids in low income areas.  
+                            Right now I have been working over 5 years in the Montbello area and before that the inner city of Dallas.  
+                            As I got more mature and wiser stresses of life overwhelm me and that is when I  discovered the joys of Power Yoga.  
+                            Still being very physically active I loved the combination of still breaking a sweat, with the benefits learning to use breathe to deal with the stress.  
+                            Practicing yoga for over 4 years it is now part of my everyday life.  I also love to cook, travel the world and sample beers with wonderful husband Ian.</p>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+                <section class="content-section">
+                    <div class="grid_6">
+                        <h2>Schedule</h2>
+                        <p>Limited Space Available...</p>
+                        <p>Classes forming now...</p>
+                    </div>
+                    <div class="grid_6">
+                        <h2>Pricing</h2>
+                        <p>$10 / Person</p>
+                    </div>
+                </section>
+                <div class="clearfix">
+                </div>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </section>
+}
+@section meta{
+    <meta name="description" content="Power Yoga Classes in Park Hill, Stapleton, and Denver - Provided by Karlee Jakalow and Urban Survival Fitness." />
+}
