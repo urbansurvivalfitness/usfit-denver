@@ -361,6 +361,7 @@
     <Content Include="Views\Home\VerticalNavGrid.cshtml" />
     <Content Include="Views\Home\Power-Yoga-Classes.mobile.cshtml" />
     <Content Include="Views\Shared\MobileContact.cshtml" />
+    <Content Include="Views\Home\WorkoutSchedule.cshtml" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Http.WebHost.dll" />
