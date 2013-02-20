@@ -187,6 +187,7 @@
     <Content Include="Content\themes\blue-and-gold\images\icons-36-white.png" />
     <Content Include="Content\themes\blue-and-gold\usf-blue-and-orange.css" />
     <Content Include="Content\themes\blue-and-gold\usf-blue-and-orange.min.css" />
+    <Content Include="Images\bios\indiapic.JPG" />
     <Content Include="Images\bios\Jeffrey-McMillan.jpg" />
     <Content Include="Images\bios\Johnnie-Williams.jpg" />
     <Content Include="Images\bios\Terri-Carrigan.jpg" />
@@ -362,6 +363,7 @@
     <Content Include="Views\Home\Power-Yoga-Classes.mobile.cshtml" />
     <Content Include="Views\Shared\MobileContact.cshtml" />
     <Content Include="Views\Home\WorkoutSchedule.cshtml" />
+    <Content Include="Views\Home\PricingGrid.cshtml" />
     <None Include="_bin_deployableAssemblies\EntityFramework.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />
     <None Include="_bin_deployableAssemblies\System.Web.Http.WebHost.dll" />
