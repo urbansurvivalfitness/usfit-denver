@@ -311,6 +311,7 @@
     <Content Include="Images\orderedListTwo.png" />
     <Content Include="Images\orderedListThree.png" />
     <Content Include="Images\twitter.png" />
+    <Content Include="Images\usflogo.png" />
     <Content Include="Images\windowsLive.png" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Account\ChangePassword.cshtml" />
