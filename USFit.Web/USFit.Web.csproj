@@ -262,6 +262,7 @@
     <Content Include="Images\shiny_calendar_64px.png" />
     <Content Include="Images\twitter-32x32.png" />
     <Content Include="Images\USFBNR.gif" />
+    <Content Include="Images\usflogo.png" />
     <Content Include="Images\workout-classes\Boring-Preview.jpg" />
     <Content Include="Images\workout-classes\Measure-Preview.jpg" />
     <Content Include="Images\workout-classes\Time-Preview.jpg" />
@@ -311,7 +312,6 @@
     <Content Include="Images\orderedListTwo.png" />
     <Content Include="Images\orderedListThree.png" />
     <Content Include="Images\twitter.png" />
-    <Content Include="Images\usflogo.png" />
     <Content Include="Images\windowsLive.png" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Account\ChangePassword.cshtml" />
