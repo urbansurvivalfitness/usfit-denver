@@ -1,0 +1,43 @@
+﻿@{
+    var page = ViewData["Page"] as string;
+    var defaultColor = "orange";
+    var greyColor = "grey";
+    
+    var powerYogaColor = defaultColor;
+    var workoutClassesColor = defaultColor;
+    var youthColor = defaultColor;
+    var selfDefenseColor = defaultColor;
+    var seniorsColor = defaultColor;
+    
+    switch (page) {
+        case "PowerYoga":
+            powerYogaColor = greyColor;      
+            break;
+        case "WorkoutClasses":
+            workoutClassesColor = greyColor;
+            break;
+        case "Youth":
+            youthColor = greyColor;
+            break;
+        case "Seniors":
+            seniorsColor = greyColor;
+            break;
+        case "SelfDefense":
+            selfDefenseColor = greyColor;
+            break;
+    }
+}
+<div style="width: 100%; height: 100%;">
+    <ul>
+        <li>
+            <a class="medium @workoutClassesColor button nav-button" href="/home/workout-classes">Workout Classes</a></li>
+        <li>
+            <a class="medium @powerYogaColor button nav-button" href="/home/power-yoga-classes">Power Yoga</a></li>
+        <li>
+            <a class="medium @youthColor button nav-button" href="/home/youth-programs">Youth Programs</a></li>
+        <li>
+            <a class="medium @selfDefenseColor button nav-button" href="/home/self-defense">Self Defense</a></li>
+        <li>
+            <a class="medium @seniorsColor button nav-button" href="/home/seniors">Seniors Classes</a></li>
+    </ul>
+</div>
