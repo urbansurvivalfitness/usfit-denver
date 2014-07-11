@@ -46,8 +46,8 @@ namespace USFit.Web.Controllers
             return View();
         }
 
-        [ActionName("zumba-classes")]
-        public ActionResult ZumbaClasses()
+        [ActionName("power-yoga-classes")]
+        public ActionResult PowerYogaClasses()
         {
             return View();
         }
